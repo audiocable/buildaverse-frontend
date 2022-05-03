@@ -14,3 +14,7 @@ The decision to create the frontend of the site with Bootstrap has been made. Pr
 ### May 2, 2022
 `ID:002` `author:tor` `date:2022-05-02`\
 Began work on a mockups of the site in Figma, to speed up development later on. Worked on main theme.
+
+### May 3, 2022
+`ID:002` `author:tor` `date:2022-05-02`\
+Continued work on dark version of theme.
