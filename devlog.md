@@ -17,4 +17,4 @@ Began work on a mockups of the site in Figma, to speed up development later on. 
 
 ### May 3, 2022
 `ID:002` `author:tor` `date:2022-05-02`\
-Continued work on dark version of theme, began work on navbar.
+Continued work on dark version of theme, began work on navbar. Good progress made on topnav: Logo, search bar, notification icons with little red notification indicators, money icons, user with profile picture and dropdown menu. Hover effects for all items. No mobile compatiblity yet.
