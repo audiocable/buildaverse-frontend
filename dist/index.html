@@ -12,12 +12,9 @@
 <body>
 
 	<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-		<a class="navbar-brand col-auto me-0 px-3" href="#"><img class="navbar-brand-logo" src="img/LightLogo.png"></a>
-		<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
-			data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<input class="form-control form-control-dark w-100" type="text" placeholder="Search anything on Buildaverse..."
+		<a class="navbar-brand col-auto me-0 px-3" href="#"><img class="navbar-brand-logo d-none d-md-block" src="img/LightLogo.png"><img class="navbar-brand-logo d-md-none" src="img/LightLogoIcon.png"></a>
+
+		<input class="form-control form-control-dark w-100 d-none d-md-block" type="text" placeholder="Search anything on Buildaverse..."
 			aria-label="Search">
 		<div class="navbar-nav dropdown">
 			<div class="nav-item text-nowrap nav-pill">
@@ -88,8 +85,8 @@
 		</div>
 		<div class="navbar-nav dropdown">
 			<div class="nav-item text-nowrap nav-pill" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-				<a class="nav-link px-3 nav-user" href="">
-					<div class="nav-user-username">Kyle</div>
+				<a class="nav-link nav-user" href="">
+					<div class="nav-user-username d-none d-md-inline-block">Kyle</div>
 					<img class="nav-pfp" src="img/pfp.png">
 				</a>
 			</div>
