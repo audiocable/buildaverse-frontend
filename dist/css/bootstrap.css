@@ -10722,8 +10722,9 @@ mark, .mark {
 }
 
 .nav-pill {
-  outline: 2px solid #272727;
   border-radius: 100px;
+  outline: 2px solid #272727;
+  outline-offset: -1px;
   margin-right: 0.75rem;
 }
 
@@ -10782,8 +10783,9 @@ mark, .mark {
   height: 40px;
   width: 40px;
   background: #2a2460;
-  border: 2px solid #272727;
   border-radius: 100px;
+  outline: 2px solid #272727;
+  outline-offset: -1px;
   position: relative;
   left: 1px;
 }
@@ -10793,8 +10795,8 @@ mark, .mark {
   height: 35px;
   width: 35px;
   background: #272727;
-  outline: 2px solid #3C3C3C;
   border-radius: 100px;
+  border: 2px solid #3C3C3C;
   margin-left: 0.75rem;
   margin-right: 0.5rem;
 }
