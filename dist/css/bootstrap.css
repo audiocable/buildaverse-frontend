@@ -89,10 +89,10 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: #1C1C1C;
+  color: #272727;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 1;
 }
 
 hr:not([size]) {
@@ -3516,10 +3516,10 @@ fieldset:disabled .btn {
   color: #DEDEDE;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #1C1C1C;
   background-clip: padding-box;
-  border: 2px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.375rem;
+  border: 2px solid #272727;
+  border-radius: 0.75rem;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -3721,7 +3721,7 @@ fieldset:disabled .btn {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid #272727;
 }
 
 .dropdown-item {
@@ -3730,7 +3730,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #0F0F0F;
+  color: #DEDEDE;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -3739,8 +3739,8 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #0e0e0e;
-  background-color: #828282;
+  color: #fff;
+  background-color: #272727;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -3771,13 +3771,13 @@ fieldset:disabled .btn {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1rem;
-  color: #0F0F0F;
+  color: #DEDEDE;
 }
 
 .dropdown-menu-dark {
   color: #616161;
   background-color: #141414;
-  border-color: rgba(0, 0, 0, 0.15);
+  border-color: #272727;
 }
 
 .dropdown-menu-dark .dropdown-item {
@@ -3799,7 +3799,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu-dark .dropdown-divider {
-  border-color: rgba(0, 0, 0, 0.15);
+  border-color: #272727;
 }
 
 .dropdown-menu-dark .dropdown-item-text {
@@ -6785,7 +6785,7 @@ fieldset:disabled .btn {
   width: 1px;
   min-height: 1em;
   background-color: currentColor;
-  opacity: 0.25;
+  opacity: 1;
 }
 
 .align-baseline {
@@ -10658,8 +10658,8 @@ mark, .mark {
 }
 
 .nav-pill {
-  border: 1px solid #353535;
-  outline: 2px solid #353535;
+  border: 1px solid #272727;
+  outline: 2px solid #272727;
   outline-offset: -2px;
   border-radius: 100px;
   margin-right: 0.75rem;
@@ -10720,12 +10720,18 @@ mark, .mark {
   height: 40px;
   width: 40px;
   background: #2a2460;
-  border: 1px solid #353535;
-  outline: 2px solid #353535;
+  border: 1px solid #272727;
+  outline: 2px solid #272727;
   outline-offset: -2px;
   border-radius: 100px;
   position: relative;
   left: 1px;
+}
+
+.user-dropdown {
+  position: absolute !important;
+  right: 0.75rem !important;
+  margin-top: 0.75rem !important;
 }
 
 /*

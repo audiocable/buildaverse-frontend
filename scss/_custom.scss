@@ -7,8 +7,8 @@
 }
 
 .nav-pill {
-	border: 1px solid #353535;
-	outline: 2px solid #353535;
+	border: 1px solid $gray-500;
+	outline: 2px solid $gray-500;
 	outline-offset: -2px;
 	border-radius: 100px;
 	margin-right: 0.75rem;
@@ -64,12 +64,18 @@
 	height: 40px;
 	width: 40px;
 	background: $purple-800;
-	border: 1px solid #353535;
-	outline: 2px solid #353535;
+	border: 1px solid $gray-500;
+	outline: 2px solid $gray-500;
 	outline-offset: -2px;
 	border-radius: 100px;
 	position: relative;
 	left: 1px;
+}
+
+.user-dropdown {
+	position: absolute!important;
+	right: 0.75rem!important;
+	margin-top: 0.75rem !important;
 }
 
 /*

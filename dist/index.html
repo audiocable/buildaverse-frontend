@@ -59,14 +59,22 @@
 				</a>
 			</div>
 		</div>
-		<div class="navbar-nav">
-			<div class="nav-item text-nowrap nav-pill">
-				<a class="nav-link px-3 nav-user" href="#">
+		<div class="navbar-nav dropdown">
+			<div class="nav-item text-nowrap nav-pill" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+				<a class="nav-link px-3 nav-user" href="">
 					<div class="nav-user-username">Kyle</div>
 					<img class="nav-pfp" src="img/pfp.png">
 				</a>
 			</div>
+			<ul class="dropdown-menu dropdown-menu-end user-dropdown" aria-labelledby="userDropdown" data-bs-popper="static">
+				<li><a class="dropdown-item" href="#">Profile</a></li>
+				<li><a class="dropdown-item" href="#">Edit Character</a></li>
+				<li><a class="dropdown-item" href="#">Account Settings</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item text-danger" href="#">Log out -></a></li>
+			</ul>
 		</div>
+		
 	</header>
 
 	<script src="js/bootstrap.bundle.js"></script>
