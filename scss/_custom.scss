@@ -86,12 +86,21 @@ mark {
 	display: inline-block;
 	height: 35px;
 	width: 35px;
-	background: $purple-800;
-	border: 2px solid $purple-700;
 	border-radius: 100px;
 	margin-left: 0.75rem;
 	margin-right: 0.5rem;
 }
+
+.notif-icon-primary {
+	background: $purple-800;
+	border: 2px solid $purple-700;
+}
+
+.notif-icon-success {
+	background: $green-800;
+	border: 2px solid $green-700;
+}
+
 
 .notif-text {
 	margin-right: 1rem;
@@ -99,8 +108,6 @@ mark {
 
 .notif-new {
 	border-left: $primary solid 3px;
-	position: relative;
-	right: 2px;
 }
 
 .notif-badge {
@@ -112,6 +119,17 @@ mark {
 .notif-info {
 	margin-top: 0.5rem;
 	font-size: 0.875rem;
+}
+
+.notif:hover {
+	background: $gray-500;
+}
+
+.notif-truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 15rem;
 }
 
 .user-dropdown {

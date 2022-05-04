@@ -10806,11 +10806,19 @@ mark, .mark {
   display: inline-block;
   height: 35px;
   width: 35px;
-  background: #2a2460;
-  border: 2px solid #3f3691;
   border-radius: 100px;
   margin-left: 0.75rem;
   margin-right: 0.5rem;
+}
+
+.notif-icon-primary {
+  background: #2a2460;
+  border: 2px solid #3f3691;
+}
+
+.notif-icon-success {
+  background: #1c5033;
+  border: 2px solid #2a774d;
 }
 
 .notif-text {
@@ -10819,8 +10827,6 @@ mark, .mark {
 
 .notif-new {
   border-left: #695AF1 solid 3px;
-  position: relative;
-  right: 2px;
 }
 
 .notif-badge {
@@ -10832,6 +10838,17 @@ mark, .mark {
 .notif-info {
   margin-top: 0.5rem;
   font-size: 0.875rem;
+}
+
+.notif:hover {
+  background: #272727;
+}
+
+.notif-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 15rem;
 }
 
 .user-dropdown {
