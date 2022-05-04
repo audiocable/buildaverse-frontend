@@ -10868,6 +10868,10 @@ mark, .mark {
   }
 }
 
+.icon-dropdown:focus {
+  color: #DEDEDE;
+}
+
 /*
  * Navbar
  */
