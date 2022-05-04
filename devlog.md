@@ -17,4 +17,4 @@ Began work on a mockups of the site in Figma, to speed up development later on. 
 
 ### May 3, 2022
 `ID:002` `author:tor` `date:2022-05-02`\
-Continued work on dark version of theme.
+Continued work on dark version of theme, began work on navbar.
