@@ -3976,7 +3976,7 @@ fieldset:disabled .btn {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #616161;
+  color: #fff;
   background-color: #171717;
   border-color: #616161 #616161 #171717;
 }
@@ -6940,8 +6940,24 @@ fieldset:disabled .btn {
   top: 0 !important;
 }
 
+.top-25 {
+  top: 25% !important;
+}
+
+.top-30 {
+  top: 30% !important;
+}
+
 .top-50 {
   top: 50% !important;
+}
+
+.top-55 {
+  top: 55% !important;
+}
+
+.top-75 {
+  top: 75% !important;
 }
 
 .top-100 {
@@ -6952,8 +6968,24 @@ fieldset:disabled .btn {
   bottom: 0 !important;
 }
 
+.bottom-25 {
+  bottom: 25% !important;
+}
+
+.bottom-30 {
+  bottom: 30% !important;
+}
+
 .bottom-50 {
   bottom: 50% !important;
+}
+
+.bottom-55 {
+  bottom: 55% !important;
+}
+
+.bottom-75 {
+  bottom: 75% !important;
 }
 
 .bottom-100 {
@@ -6964,8 +6996,24 @@ fieldset:disabled .btn {
   left: 0 !important;
 }
 
+.start-25 {
+  left: 25% !important;
+}
+
+.start-30 {
+  left: 30% !important;
+}
+
 .start-50 {
   left: 50% !important;
+}
+
+.start-55 {
+  left: 55% !important;
+}
+
+.start-75 {
+  left: 75% !important;
 }
 
 .start-100 {
@@ -6976,8 +7024,24 @@ fieldset:disabled .btn {
   right: 0 !important;
 }
 
+.end-25 {
+  right: 25% !important;
+}
+
+.end-30 {
+  right: 30% !important;
+}
+
 .end-50 {
   right: 50% !important;
+}
+
+.end-55 {
+  right: 55% !important;
+}
+
+.end-75 {
+  right: 75% !important;
 }
 
 .end-100 {
@@ -10732,6 +10796,10 @@ mark, .mark {
   position: absolute !important;
   right: 0.75rem !important;
   margin-top: 0.75rem !important;
+}
+
+.second-nav {
+  background: #141414 !important;
 }
 
 /*
