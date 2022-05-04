@@ -21,4 +21,4 @@ Continued work on dark version of theme, began work on navbar. Good progress mad
 
 ### May 4, 2022
 `ID:004` `author:tor` `date:2022-05-04`\
-
+Created dropdown menu for notifications
