@@ -235,7 +235,7 @@ sup {
 }
 
 a {
-  color: #695AF1;
+  color: #877bf4;
   text-decoration: underline;
 }
 
@@ -3413,7 +3413,7 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #695AF1;
+  color: #877bf4;
   text-decoration: underline;
 }
 
@@ -4868,7 +4868,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #695AF1;
+  color: #877bf4;
   text-decoration: none;
   background-color: #fff;
   border: 2px solid #616161;
@@ -10726,6 +10726,7 @@ mark, .mark {
   outline: 2px solid #272727;
   outline-offset: -2px;
   border-radius: 100px;
+  -moz-outline-radius: 100px;
   margin-right: 0.75rem;
 }
 
@@ -10792,10 +10793,63 @@ mark, .mark {
   left: 1px;
 }
 
+.notif-pfp {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: #272727;
+  border: 2px solid #3C3C3C;
+  border-radius: 100px;
+  margin-left: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.notif-icon {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: #2a2460;
+  border: 2px solid #3f3691;
+  border-radius: 100px;
+  margin-left: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.notif-text {
+  margin-right: 1rem;
+}
+
+.notif-new {
+  border-left: #695AF1 solid 3px;
+  position: relative;
+  right: 2px;
+}
+
+.notif-badge {
+  position: relative;
+  bottom: 2px;
+  margin-left: 0.5rem;
+}
+
+.notif-info {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
 .user-dropdown {
   position: absolute !important;
   right: 0.75rem !important;
   margin-top: 0.75rem !important;
+}
+
+.notification-dropdown {
+  position: absolute !important;
+  margin-top: 0.75rem !important;
+}
+
+.notification-dropdown-title {
+  font-weight: 600;
+  color: white;
 }
 
 .second-nav {

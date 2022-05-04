@@ -11,6 +11,7 @@
 	outline: 2px solid $gray-500;
 	outline-offset: -2px;
 	border-radius: 100px;
+	-moz-outline-radius: 100px;
 	margin-right: 0.75rem;
 }
 
@@ -72,10 +73,64 @@
 	left: 1px;
 }
 
+.notif-pfp {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	background: $gray-500;
+	border: 2px solid $gray-400;
+	border-radius: 100px;
+	margin-left: 0.75rem;
+	margin-right: 0.5rem;
+}
+
+.notif-icon {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	background: $purple-800;
+	border: 2px solid $purple-700;
+	border-radius: 100px;
+	margin-left: 0.75rem;
+	margin-right: 0.5rem;
+}
+
+.notif-text {
+	margin-right: 1rem;
+}
+
+.notif-new {
+	border-left: $primary solid 3px;
+	position: relative;
+	right: 2px;
+}
+
+.notif-badge {
+	position: relative;
+	bottom: 2px;
+	margin-left: 0.5rem;
+}
+
+.notif-info {
+	margin-top: 0.5rem;
+	font-size: 0.875rem;
+}
+
 .user-dropdown {
 	position: absolute!important;
 	right: 0.75rem!important;
 	margin-top: 0.75rem !important;
+}
+
+.notification-dropdown {
+	position: absolute !important;
+	margin-top: 0.75rem !important;
+	
+}
+
+.notification-dropdown-title {
+	font-weight: 600;
+	color: white;
 }
 
 .second-nav {
