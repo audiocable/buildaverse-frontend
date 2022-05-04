@@ -7,11 +7,8 @@
 }
 
 .nav-pill {
-	border: 1px solid $gray-500;
 	outline: 2px solid $gray-500;
-	outline-offset: -2px;
 	border-radius: 100px;
-	-moz-outline-radius: 100px;
 	margin-right: 0.75rem;
 }
 
@@ -65,9 +62,8 @@
 	height: 40px;
 	width: 40px;
 	background: $purple-800;
-	border: 1px solid $gray-500;
-	outline: 2px solid $gray-500;
-	outline-offset: -2px;
+	border: 2px solid $gray-500;
+
 	border-radius: 100px;
 	position: relative;
 	left: 1px;
@@ -78,7 +74,7 @@
 	height: 35px;
 	width: 35px;
 	background: $gray-500;
-	border: 2px solid $gray-400;
+	outline: 2px solid $gray-400;
 	border-radius: 100px;
 	margin-left: 0.75rem;
 	margin-right: 0.5rem;
