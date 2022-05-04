@@ -21,4 +21,4 @@ Continued work on dark version of theme, began work on navbar. Good progress mad
 
 ### May 4, 2022
 `ID:004` `author:tor` `date:2022-05-04`\
-Created dropdown menu for notifications. Worked on collopasing nav sections for mobile. Added desperately needed comments to code.
+Created dropdown menu for notifications , trades. Worked on collopasing nav sections for mobile. Added desperately needed comments to code.
