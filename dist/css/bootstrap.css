@@ -10942,7 +10942,7 @@ html {
   height: -webkit-fill-available;
 }
 
-main {
+.sidebar-container {
   display: flex;
   flex-wrap: nowrap;
   height: 100vh;
@@ -10950,14 +10950,6 @@ main {
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
-}
-
-.b-example-divider {
-  flex-shrink: 0;
-  width: 0;
-  height: calc(100vh - 64px);
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .bi {
@@ -11040,10 +11032,10 @@ main {
   color: #616161;
 }
 
-.border-right {
-  border-right: 2px solid #272727 !important;
-}
-
-.bg-sidebar {
+.sidebar {
   background: #121212;
+  height: calc(100vh - 66px);
+  position: fixed;
+  border-right: 2px solid #272727;
+  width: 5.5rem;
 }
