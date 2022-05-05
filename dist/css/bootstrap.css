@@ -11043,3 +11043,7 @@ main {
 .border-right {
   border-right: 2px solid #272727 !important;
 }
+
+.bg-sidebar {
+  background: #121212;
+}
