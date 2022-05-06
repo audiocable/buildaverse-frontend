@@ -4582,7 +4582,7 @@ fieldset:disabled .btn {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .card-title {
@@ -4599,11 +4599,11 @@ fieldset:disabled .btn {
 }
 
 .card-link + .card-link {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .card-header {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   background-color: rgba(255, 255, 255, 0.025);
   border-bottom: 0 solid rgba(0, 0, 0, 0.125);
@@ -4614,7 +4614,7 @@ fieldset:disabled .btn {
 }
 
 .card-footer {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   background-color: rgba(255, 255, 255, 0.025);
   border-top: 0 solid rgba(0, 0, 0, 0.125);
 }
@@ -4624,9 +4624,9 @@ fieldset:disabled .btn {
 }
 
 .card-header-tabs {
-  margin-right: -0.5rem;
+  margin-right: -0.75rem;
   margin-bottom: -0.5rem;
-  margin-left: -0.5rem;
+  margin-left: -0.75rem;
   border-bottom: 0;
 }
 
@@ -4636,8 +4636,8 @@ fieldset:disabled .btn {
 }
 
 .card-header-pills {
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
 }
 
 .card-img-overlay {
@@ -10889,6 +10889,21 @@ mark, .mark {
   }
 }
 
+.main-section {
+  margin-top: .75rem;
+}
+
+@media (min-width: 768px) {
+  .main-section {
+    padding-left: 98px;
+    margin-top: 4rem;
+  }
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+}
+
 .icon-dropdown:focus {
   color: #DEDEDE;
 }
@@ -11038,4 +11053,22 @@ html {
   position: fixed;
   border-right: 2px solid #272727;
   width: 5.5rem;
+}
+
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.mobile-nav-container {
+  max-width: 420px;
+}
+
+.mobile-nav-link {
+  color: #bbbbbb;
+}
+
+.mobile-nav-link-active {
+  color: white;
 }

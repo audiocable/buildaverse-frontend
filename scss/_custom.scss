@@ -174,6 +174,21 @@ mark {
 	}
 }
 
+.main-section {
+	margin-top: .75rem;
+}
+
+@media (min-width: 768px) {
+	.main-section {
+		padding-left: 98px;
+		margin-top: 4rem;
+	}
+}
+
+.page-title {
+	margin-bottom: 1.5rem;
+}
+
 .icon-dropdown:focus {
 	color: $gray-100;
 }
@@ -327,4 +342,23 @@ html {
 	position: fixed;
 	border-right: 2px solid $gray-500;
 	width: 5.5rem;
+}
+
+
+.mobile-nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+
+.mobile-nav-container {
+	max-width: 420px;
+}
+
+.mobile-nav-link {
+	color: #bbbbbb;
+}
+
+.mobile-nav-link-active {
+	color: white;
 }

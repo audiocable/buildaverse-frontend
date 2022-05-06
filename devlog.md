@@ -22,3 +22,11 @@ Continued work on dark version of theme, began work on navbar. Good progress mad
 ### May 4, 2022
 `ID:004` `author:tor` `date:2022-05-04`\
 Created dropdown menu for notifications , trades, and friends. Worked on collopasing nav sections for mobile. Added desperately needed comments to code. Added text truncation so unusally long usernames, among other things, don't break the frontend. Created basic sidebar.
+
+### May 5, 2022
+`ID:005` `author:tor` `date:2022-05-05`\
+Spent the day doing some yard work.
+
+### May 6, 2022
+`ID:005` `author:tor` `date:2022-05-05`\
+Created a new mobile navigation system, similar to what Instagram has. Began working on home/dashboard page.
