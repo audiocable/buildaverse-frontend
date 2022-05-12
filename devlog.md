@@ -28,5 +28,9 @@ Created dropdown menu for notifications , trades, and friends. Worked on collopa
 Spent the day doing some yard work.
 
 ### May 6, 2022
-`ID:005` `author:tor` `date:2022-05-05`\
+`ID:006` `author:tor` `date:2022-05-06`\
 Created a new mobile navigation system, similar to what Instagram has. Began working on home/dashboard page.
+
+### May 11, 2022
+`ID:007` `author:tor` `date:2022-05-11`\
+Worked on dashboard.
