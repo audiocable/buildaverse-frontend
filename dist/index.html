@@ -12,7 +12,7 @@
 <body>
 
 	<!-- Top nav-->
-	<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 border-bottom">
+	<header class="navbar navbar-dark sticky-top bg-dark d-none d-md-flex flex-md-nowrap p-0 border-bottom">
 		<a class="navbar-brand col-auto me-0 px-3" href="#"><img class="navbar-brand-logo d-none d-md-block" src="img/LightLogo.png"><img class="navbar-brand-logo d-md-none" src="img/LightLogoIcon.png"></a>
 		<div class="col-auto d-md-none"></div>
 		<input class="form-control form-control-dark w-100 d-none d-md-block" type="text" placeholder="Search anything on Buildaverse..." aria-label="Search">
@@ -266,7 +266,6 @@
 					<li><a class="dropdown-item" href="#">Profile</a></li>
 					<li><a class="dropdown-item" href="#">Edit Character</a></li>
 					<li><a class="dropdown-item" href="#">Account Settings</a></li>
-					<li><a class="dropdown-item" href="#">Upgrade </a></li>
 					<li><hr class="dropdown-divider"></li>
 					<li><a class="dropdown-item text-danger" href="#">Log out -></a></li>
 				</ul>
@@ -406,7 +405,7 @@
 
 	<!--Mobile Nav-->
 	<div class="d-md-none">
-		<header class="mobile-nav navbar navbar-dark bg-dark flex-nowrap p-3 border-top">
+		<header class="mobile-nav navbar navbar-dark bg-dark flex-nowrap px-3  border-top">
 			<div class="container mobile-nav-container">
 				<!-- Home -->
 				<div class="col-auto">
@@ -428,17 +427,28 @@
 								class="visually-hidden">unread messages</span></span>
 					</a>
 				</div>
-				<!-- Market -->
-				<div class="col-auto">
-					<a href="#" class="nav-link mobile-nav-link p-0">
-						<h3 class="m-0"><i class="bi bi-shop-window"></i></h3>
-					</a>
-				</div>
 				<!-- Forum -->
 				<div class="col-auto">
 					<a href="#" class="nav-link mobile-nav-link p-0">
 						<h3 class="m-0"><i class="bi bi-menu-up"></i></h3>
 					</a>
+				</div>
+				<div class="col-auto dropup">
+					<a href="#" class="nav-link mobile-nav-link p-0 "  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<h3 class="m-0"><i class="bi bi-person-circle"></i></h3>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end">
+						<li><span class="dropdown-item-text"><b>Kyle</b></span></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#"><i class="bi bi-cash-stack text-success" style="vertical-align: 0;"></i>&nbsp;970&nbsp;&nbsp;&nbsp;<i class="bi bi-coin text-warning" style="vertical-align: 0;"></i>&nbsp;1.3k</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Profile</a></li>
+						<li><a class="dropdown-item" href="#">Edit Charactrer</a></li>
+						<li><a class="dropdown-item" href="#">Account Settings</a></li>
+						<li><a class="dropdown-item" href="#">Upgrade</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item text-danger" href="#">Log out -></a></li>
+					</ul>
 				</div>
 			</div>
 		</header>
