@@ -71,6 +71,10 @@ mark {
 	left: 1px;
 }
 
+.nav-pfp-admin {
+	background: $red-800;
+}
+
 .notif-pfp {
 	display: inline-block;
 	height: 35px;
@@ -382,4 +386,16 @@ html {
 	background-size: cover;
 	background-position: center;
 	height: 10rem;
+}
+
+.text-small {
+	font-size: 0.875rem;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+.text-primary-light {
+	color: $purple-400;
 }
