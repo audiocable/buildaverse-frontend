@@ -10825,6 +10825,11 @@ mark, .mark {
   border: 2px solid #2a774d;
 }
 
+.notif-icon-warning {
+  background: #664d03;
+  border: 2px solid #997404;
+}
+
 .notif-text {
   margin-right: 1rem;
 }
@@ -11110,4 +11115,31 @@ html {
 
 .text-primary-light {
   color: #877bf4;
+}
+
+.thumbnail {
+  width: 100%;
+  background: #272727;
+  border-radius: 0.25rem;
+  max-width: 320px;
+}
+
+.admin {
+  font-weight: 700;
+  color: #F05151;
+}
+
+.admin:hover {
+  font-weight: 700;
+  color: #f37474 !important;
+}
+
+.user {
+  font-weight: 700;
+  color: #DEDEDE;
+}
+
+.game-link {
+  text-decoration: none;
+  color: #DEDEDE;
 }

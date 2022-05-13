@@ -12,10 +12,12 @@
 <body>
 
 	<!-- Top nav-->
-	<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 border-bottom">
-		<a class="navbar-brand col-auto me-0 px-3" href="#"><img class="navbar-brand-logo d-none d-md-block" src="img/LightLogo.png"><img class="navbar-brand-logo d-md-none" src="img/LightLogoIcon.png"></a>
+	<header class="navbar navbar-dark sticky-top bg-dark d-none d-md-flex flex-md-nowrap p-0 border-bottom">
+		<a class="navbar-brand col-auto me-0 px-3" href="#"><img class="navbar-brand-logo d-none d-md-block"
+				src="img/LightLogo.png"><img class="navbar-brand-logo d-md-none" src="img/LightLogoIcon.png"></a>
 		<div class="col-auto d-md-none"></div>
-		<input class="form-control form-control-dark w-100 d-none d-md-block" type="text" placeholder="Search anything on Buildaverse..." aria-label="Search">
+		<input class="form-control form-control-dark w-100 d-none d-md-block" type="text"
+			placeholder="Search anything on Buildaverse..." aria-label="Search">
 
 		<!-- Top Nav Menus-->
 		<div class="col-auto">
@@ -103,7 +105,7 @@
 							<li>
 								<hr class="dropdown-divider mb-0">
 							</li>
-			
+
 							<li class="notif">
 								<a href="#" class="text-decoration-none">
 									<div class="d-flex pt-3 border-bottom w-100">
@@ -117,7 +119,7 @@
 									</div>
 								</a>
 							</li>
-			
+
 							<li class="notif">
 								<a href="#" class="text-decoration-none">
 									<div class="d-flex pt-3 border-bottom w-100">
@@ -131,7 +133,7 @@
 									</div>
 								</a>
 							</li>
-			
+
 							<li class="notif">
 								<a href="#" class="text-decoration-none notif-link">
 									<div class="d-flex pt-3 border-bottom w-100">
@@ -143,7 +145,7 @@
 									</div>
 								</a>
 							</li>
-			
+
 							<li class="text-center">
 								<div class="dropdown-item-text notif-info">
 									You're all caught up!<br>
@@ -153,7 +155,7 @@
 							</li>
 						</ul>
 					</span>
-			
+
 					<span class="dropdown">
 						<!-- Friend icon -->
 						<a class="nav-pill-section nav-pill-icon-right position-relative icon-dropdown" href="#" role="button"
@@ -167,7 +169,7 @@
 								class="d-none position-absolute top-30 start-55 translate-middle badge border border-dark rounded-circle bg-primary p-1"><span
 									class="visually-hidden">unread messages</span></span>
 						</a>
-			
+
 						<!-- Friend Dropdown -->
 						<ul class="dropdown-menu notification-dropdown" aria-labelledby="friendDropdown" data-bs-popper="static">
 							<li class="text-center"><span class="dropdown-item-text notification-dropdown-title">Friend Requests<span
@@ -195,7 +197,7 @@
 									</div>
 								</div>
 							</li>
-			
+
 							<li class="text-center">
 								<div class="dropdown-item-text notif-info">
 									You're all caught up!<br>
@@ -206,12 +208,12 @@
 							</li>
 						</ul>
 					</span>
-			
-			
+
+
 				</div>
-			
+
 			</div>
-			
+
 			<!-- Money Nav Section-->
 			<div class="navbar-nav d-none d-md-inline-block">
 				<div class="nav-item text-nowrap nav-pill">
@@ -224,7 +226,7 @@
 						</svg>
 						<span>&nbsp;970</span>
 					</a>
-			
+
 					<a class="nav-pill-section nav-pill-icon-right" href="#">
 						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
 							class="bi-coin nav-pill-section-icon text-warning" viewBox="0 0 16 16">
@@ -242,44 +244,75 @@
 			<div class="navbar-nav d-none">
 				<div class="nav-item text-nowrap nav-pill">
 					<a class="nav-pill-section nav-pill-icon-left position-relative" href="#">
-						<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi-search nav-pill-section-icon" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" /></svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+							class="bi-search nav-pill-section-icon" viewBox="0 0 16 16">
+							<path
+								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+						</svg>
 					</a>
-					<a class="nav-pill-section nav-pill-icon position-relative icon-dropdown" href="#" role="button" id="bellDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi-bell nav-pill-section-icon" viewBox="0 0 16 16"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" /></svg>
-						<span class="position-absolute top-30 start-75 translate-middle badge border border-dark rounded-circle bg-primary p-1"><span class="visually-hidden">unread messages</span></span>
+					<a class="nav-pill-section nav-pill-icon position-relative icon-dropdown" href="#" role="button"
+						id="bellDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+							class="bi-bell nav-pill-section-icon" viewBox="0 0 16 16">
+							<path
+								d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+						</svg>
+						<span
+							class="position-absolute top-30 start-75 translate-middle badge border border-dark rounded-circle bg-primary p-1"><span
+								class="visually-hidden">unread messages</span></span>
 					</a>
 					<a class="nav-pill-section nav-pill-icon-right position-relative" href="#">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi-cash-coin" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" /><path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" /><path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" /><path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" /></svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi-cash-coin"
+							viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+							<path
+								d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+							<path
+								d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+							<path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+						</svg>
 					</a>
 				</div>
 			</div>
-		
+
 			<!-- User Nav Section-->
 			<div class="navbar-nav dropdown d-inline-block">
-				<div class="nav-item text-nowrap nav-pill" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+				<div class="nav-item text-nowrap nav-pill" role="button" id="userDropdown" data-bs-toggle="dropdown"
+					aria-expanded="false">
 					<a class="nav-link nav-user" href="">
-						<div class="nav-user-username d-none d-md-inline-block">Kyle</div>
-						<img class="nav-pfp" src="img/pfp.png">
+						<div class="nav-user-username d-none d-md-inline-block text-light">Kyle <span
+								class="text-danger d-none">{A}</span></div>
+						<img class="nav-pfp" src="img/pfp.png"> <!-- add class "nav-pfp-admin" for red background-->
 					</a>
 				</div>
-				<ul class="dropdown-menu dropdown-menu-end user-dropdown" aria-labelledby="userDropdown" data-bs-popper="static">
+				<ul class="dropdown-menu dropdown-menu-end user-dropdown" aria-labelledby="userDropdown"
+					data-bs-popper="static">
 					<li><a class="dropdown-item" href="#">Profile</a></li>
 					<li><a class="dropdown-item" href="#">Edit Character</a></li>
 					<li><a class="dropdown-item" href="#">Account Settings</a></li>
-					<li><a class="dropdown-item" href="#">Upgrade </a></li>
-					<li><hr class="dropdown-divider"></li>
+					<li>
+						<hr class="dropdown-divider">
+					</li>
+					<div class="d-none">
+						<li><a class="dropdown-item" href="#"><span class="text-danger">{A}</span> Admin Panel</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+					</div>
 					<li><a class="dropdown-item text-danger" href="#">Log out -></a></li>
 				</ul>
 			</div>
 		</div>
 
 		<!-- Decline All Trades Modal -->
-		<div class="modal fade" id="declineTradesModal" tabindex="-1" aria-labelledby="declineTradesLabel" aria-hidden="true">
+		<div class="modal fade" id="declineTradesModal" tabindex="-1" aria-labelledby="declineTradesLabel"
+			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
-		
+
 					<div class="modal-body text-center py-5">
-						<h5 class="mb-4">Are you sure that you want <br class="d-none d-md-inline-block">to decline all incoming trades?
+						<h5 class="mb-4">Are you sure that you want <br class="d-none d-md-inline-block">to decline all incoming
+							trades?
 						</h5>
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, nevermind</button>
 						<button type="button" class="btn btn-danger">Decline all</button>
@@ -287,14 +320,16 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Accept All Friends Modal -->
-		<div class="modal fade" id="acceptFriendsModal" tabindex="-1" aria-labelledby="acceptFriendsLabel" aria-hidden="true">
+		<div class="modal fade" id="acceptFriendsModal" tabindex="-1" aria-labelledby="acceptFriendsLabel"
+			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
-		
+
 					<div class="modal-body text-center py-5">
-						<h5 class="mb-4">Are you sure that you want to <br class="d-none d-md-inline-block">accept all incoming friend
+						<h5 class="mb-4">Are you sure that you want to <br class="d-none d-md-inline-block">accept all incoming
+							friend
 							requests?
 						</h5>
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, nevermind</button>
@@ -303,14 +338,16 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Decline All Trades Modal -->
-		<div class="modal fade" id="declineFriendsModal" tabindex="-1" aria-labelledby="declineFriendsLabel" aria-hidden="true">
+		<div class="modal fade" id="declineFriendsModal" tabindex="-1" aria-labelledby="declineFriendsLabel"
+			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
-		
+
 					<div class="modal-body text-center py-5">
-						<h5 class="mb-4">Are you sure that you want to <br class="d-none d-md-inline-block">decline all incoming friend
+						<h5 class="mb-4">Are you sure that you want to <br class="d-none d-md-inline-block">decline all incoming
+							friend
 							requests?
 						</h5>
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, nevermind</button>
@@ -319,7 +356,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Mobile Search Modal -->
 		<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
@@ -342,45 +379,45 @@
 		<div class="d-flex flex-column flex-shrink-0 sidebar">
 			<ul class="nav nav-pills nav-flush flex-column mb-auto text-center mt-2">
 				<li class="nav-item">
-					<a href="#" class="nav-link sidebar-icon side-nav-active my-3 py-0" aria-current="page" title="" data-bs-toggle="tooltip"
-						data-bs-placement="right" data-bs-original-title="Home">
+					<a href="#" class="nav-link sidebar-icon side-nav-active my-3 py-0" aria-current="page" title=""
+						data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
 						<h4 class="m-0"><i class="bi bi-house-door"></i></h4>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link sidebar-icon my-3 py-0" aria-current="page" title=""
-						data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Games">
+					<a href="#" class="nav-link sidebar-icon my-3 py-0" aria-current="page" title="" data-bs-toggle="tooltip"
+						data-bs-placement="right" data-bs-original-title="Games">
 						<h4 class="m-0"><i class="bi bi-controller"></i></h4>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip" data-bs-placement="right"
-						data-bs-original-title="Market">
+					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip"
+						data-bs-placement="right" data-bs-original-title="Market">
 						<h4 class="m-0"><i class="bi bi-shop-window"></i></h4>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip" data-bs-placement="right"
-						data-bs-original-title="Guilds">
+					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip"
+						data-bs-placement="right" data-bs-original-title="Guilds">
 						<h4 class="m-0"><i class="bi bi-person-video2"></i></h4>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip" data-bs-placement="right"
-						data-bs-original-title="Forum">
+					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip"
+						data-bs-placement="right" data-bs-original-title="Forum">
 						<h4 class="m-0"><i class="bi bi-menu-up"></i></h4>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip" data-bs-placement="right"
-						data-bs-original-title="Events">
+					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip"
+						data-bs-placement="right" data-bs-original-title="Events">
 						<h4 class="m-0"><i class="bi bi-trophy"></i></h4>
 					</a>
 				</li>
 				<li>
 				<li>
-					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip" data-bs-placement="right"
-						data-bs-original-title="Create">
+					<a href="#" class="nav-link sidebar-icon my-3 py-0" title="" data-bs-toggle="tooltip"
+						data-bs-placement="right" data-bs-original-title="Create">
 						<h4 class="m-0"><i class="bi bi-pencil"></i></h4>
 					</a>
 				</li>
@@ -394,8 +431,8 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link sidebar-icon my-3 py-0" aria-current="page" title=""
-							data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Blog">
+						<a href="#" class="nav-link sidebar-icon my-3 py-0" aria-current="page" title="" data-bs-toggle="tooltip"
+							data-bs-placement="right" data-bs-original-title="Blog">
 							<h4 class="m-0"><i class="bi bi-rss"></i></h4>
 						</a>
 					</li>
@@ -406,7 +443,7 @@
 
 	<!--Mobile Nav-->
 	<div class="d-md-none">
-		<header class="mobile-nav navbar navbar-dark bg-dark flex-nowrap p-3 border-top">
+		<header class="mobile-nav navbar navbar-dark bg-dark flex-nowrap px-3  border-top">
 			<div class="container mobile-nav-container">
 				<!-- Home -->
 				<div class="col-auto">
@@ -420,18 +457,18 @@
 						<h3 class="m-0"><i class="bi bi-compass"></i></h3>
 					</a>
 				</div>
-				<!-- Notifications -->
+				<!-- Search -->
 				<div class="col-auto">
+					<a href="#" class="nav-link mobile-nav-link p-0">
+						<h3 class="m-0"><i class="bi bi-shop-window"></i></h3>
+					</a>
+				</div>
+				<!-- Notifications -->
+				<div class="col-auto d-none">
 					<a href="#" class="nav-link mobile-nav-link p-0">
 						<h3 class="m-0"><i class="bi bi-bell"></i></h3>
 						<span class="position-absolute top-100 start-50 translate-middle badge rounded-pill bg-danger"><span
 								class="visually-hidden">unread messages</span></span>
-					</a>
-				</div>
-				<!-- Market -->
-				<div class="col-auto">
-					<a href="#" class="nav-link mobile-nav-link p-0">
-						<h3 class="m-0"><i class="bi bi-shop-window"></i></h3>
 					</a>
 				</div>
 				<!-- Forum -->
@@ -440,8 +477,48 @@
 						<h3 class="m-0"><i class="bi bi-menu-up"></i></h3>
 					</a>
 				</div>
+				<div class="col-auto dropup">
+					<a href="#" class="nav-link mobile-nav-link p-0 " type="button" data-bs-toggle="dropdown"
+						aria-expanded="false">
+						<h3 class="m-0"><i class="bi bi-person-circle"></i></h3>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end">
+						<li><span class="dropdown-item-text"><b>Kyle</b><span class="text-danger"> {Admin}</span></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><span class="dropdown-item-text text-small text-muted text-bold" href="#">MONEY</span></li>
+						<li><a class="dropdown-item" href="#"><i class="bi bi-cash-stack text-success"
+									style="vertical-align: 0;"></i>&nbsp;970&nbsp;&nbsp;&nbsp;<i class="bi bi-coin text-warning"
+									style="vertical-align: 0;"></i>&nbsp;1.3k</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><span class="dropdown-item-text text-small text-muted text-bold" href="#">UPDATES</span></li>
+						<li><a class="dropdown-item" href="#">Notifications<span class="badge rounded-pill bg-primary notif-badge">2</span></a></li>
+						<li><a class="dropdown-item" href="#">Incoming Trades</a></li>
+						<li><a class="dropdown-item" href="#">Friend Requests</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><span class="dropdown-item-text text-small text-muted text-bold" href="#">LINKS</span></li>
+						<li><a class="dropdown-item" href="#">Profile</a></li>
+						<li><a class="dropdown-item" href="#">Edit Charactrer</a></li>
+						<li><a class="dropdown-item" href="#">Account Settings</a></li>
+						<li><a class="dropdown-item" href="#">Upgrade</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item text-danger" href="#">Log out -></a></li>
+					</ul>
+				</div>
 			</div>
 		</header>
+	</div>
+
+	<!-- Main Section -->
+	<div class="main-section container pb-5 pb-md-0">
+
 	</div>
 
 	<!-- JS imports -->

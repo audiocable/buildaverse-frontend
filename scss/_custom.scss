@@ -105,6 +105,11 @@ mark {
 	border: 2px solid $green-700;
 }
 
+.notif-icon-warning {
+	background: $yellow-800;
+	border: 2px solid $yellow-700;
+}
+
 
 .notif-text {
 	margin-right: 1rem;
@@ -398,4 +403,31 @@ html {
 
 .text-primary-light {
 	color: $purple-400;
+}
+
+.thumbnail {
+	width: 100%;
+	background: $gray-500;
+	border-radius: $border-radius-sm;
+	max-width: 320px;
+}
+
+.admin {
+	font-weight: 700;
+	color: $red;
+}
+
+.admin:hover {
+	font-weight: 700;
+	color: $red-400!important;
+}
+
+.user {
+	font-weight: 700;
+	color: $body-color
+}
+
+.game-link {
+	text-decoration: none;
+	color: $body-color;
 }
