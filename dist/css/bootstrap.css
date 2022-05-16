@@ -236,11 +236,11 @@ sup {
 
 a {
   color: #877bf4;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #c3bdf9;
+  color: #a59cf7;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2811,7 +2811,6 @@ textarea.form-control-lg {
   line-height: 1.125;
   color: #DEDEDE;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
@@ -3414,11 +3413,11 @@ fieldset:disabled .btn {
 .btn-link {
   font-weight: 400;
   color: #877bf4;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #c3bdf9;
+  color: #a59cf7;
 }
 
 .btn-link:disabled, .btn-link.disabled {
@@ -3732,7 +3731,6 @@ fieldset:disabled .btn {
   font-weight: 400;
   color: #DEDEDE;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -3931,7 +3929,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #DEDEDE;
-  text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
@@ -3942,7 +3939,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #c3bdf9;
+  color: #a59cf7;
 }
 
 .nav-link.disabled {
@@ -4048,7 +4045,6 @@ fieldset:disabled .btn {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -4869,7 +4865,6 @@ fieldset:disabled .btn {
   position: relative;
   display: block;
   color: #877bf4;
-  text-decoration: none;
   background-color: #fff;
   border: 2px solid #616161;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4883,14 +4878,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #c3bdf9;
+  color: #a59cf7;
   background-color: #828282;
   border-color: #616161;
 }
 
 .page-link:focus {
   z-index: 3;
-  color: #c3bdf9;
+  color: #a59cf7;
   background-color: #828282;
   outline: 0;
 }
@@ -5176,7 +5171,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.625rem 1.25rem;
   color: #DEDEDE;
-  text-decoration: none;
   background-color: #1C1C1C;
   border: 2px solid #272727;
 }
@@ -10795,6 +10789,15 @@ mark, .mark {
   background: #602020;
 }
 
+.list-pfp {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background: #272727;
+  border-radius: 100px;
+  border: 2px solid #3C3C3C;
+}
+
 .notif-pfp {
   display: inline-block;
   height: 35px;
@@ -11142,4 +11145,29 @@ html {
 .game-link {
   text-decoration: none;
   color: #DEDEDE;
+}
+
+.wearing-item-frame {
+  background: #272727;
+  border-radius: 0.375rem;
+}
+
+.mb-3-5 {
+  margin-bottom: 24px !important;
+}
+
+.bg-gray-500 {
+  background: #272727;
+}
+
+.mr-2 {
+  margin-right: 20px !important;
+}
+
+a {
+  font-weight: 700;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
 }

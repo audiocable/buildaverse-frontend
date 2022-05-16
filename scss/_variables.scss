@@ -447,9 +447,9 @@ $utilities-bg-colors: map-loop($utilities-bg, rgba-css-var, "$key", "bg") !defau
 // Style anchor elements.
 
 $link-color:                              $purple-400 !default;
-$link-decoration:                         underline !default;
+$link-decoration:                         none !default;
 $link-shade-percentage:                   20% !default;
-$link-hover-color:                        $purple-200 !default; /*shift-color($link-color, $link-shade-percentage)*/
+$link-hover-color:                        $purple-300 !default; /*shift-color($link-color, $link-shade-percentage)*/
 $link-hover-decoration:                   null !default;
 
 $stretched-link-pseudo-element:           after !default;

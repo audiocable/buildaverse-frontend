@@ -75,6 +75,15 @@ mark {
 	background: $red-800;
 }
 
+.list-pfp {
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	background: $gray-500;
+	border-radius: 100px;
+	border: 2px solid $gray-400;
+}
+
 .notif-pfp {
 	display: inline-block;
 	height: 35px;
@@ -430,4 +439,29 @@ html {
 .game-link {
 	text-decoration: none;
 	color: $body-color;
+}
+
+.wearing-item-frame {
+	background: $gray-500;
+	border-radius: $border-radius;
+}
+
+.mb-3-5 {
+	margin-bottom: 24px!important;
+}
+
+.bg-gray-500 {
+	background: $gray-500;
+}
+
+.mr-2 {
+	margin-right: 20px!important;
+}
+
+a {
+	font-weight: 700;
+}
+
+.font-weight-normal {
+	font-weight: 400!important;
 }
