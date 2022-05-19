@@ -411,7 +411,7 @@ html {
 }
 
 .text-primary-light {
-	color: $purple-400;
+	color: $purple-400!important;
 }
 
 .thumbnail {
@@ -464,4 +464,17 @@ a {
 
 .font-weight-normal {
 	font-weight: 400!important;
+}
+
+.text-not-bold {
+	font-weight: 400!important;
+}
+
+.rounded-lg {
+	border-radius: $border-radius-lg;
+}
+
+.rounded-bottom-lg {
+	border-bottom-right-radius: 0.75rem !important;
+	border-bottom-left-radius: 0.75rem !important;
 }

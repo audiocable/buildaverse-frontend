@@ -11117,7 +11117,7 @@ html {
 }
 
 .text-primary-light {
-  color: #877bf4;
+  color: #877bf4 !important;
 }
 
 .thumbnail {
@@ -11170,4 +11170,17 @@ a {
 
 .font-weight-normal {
   font-weight: 400 !important;
+}
+
+.text-not-bold {
+  font-weight: 400 !important;
+}
+
+.rounded-lg {
+  border-radius: 0.75rem;
+}
+
+.rounded-bottom-lg {
+  border-bottom-right-radius: 0.75rem !important;
+  border-bottom-left-radius: 0.75rem !important;
 }
