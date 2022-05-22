@@ -11184,3 +11184,15 @@ a {
   border-bottom-right-radius: 0.75rem !important;
   border-bottom-left-radius: 0.75rem !important;
 }
+
+.main-pfp {
+  display: inline-block;
+  background: #272727;
+  border-radius: 100px;
+  outline: 2px solid #3C3C3C;
+  outline-offset: -1px;
+}
+
+.pfp-admin {
+  background: #602020 !important;
+}

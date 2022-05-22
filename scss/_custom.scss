@@ -478,3 +478,15 @@ a {
 	border-bottom-right-radius: 0.75rem !important;
 	border-bottom-left-radius: 0.75rem !important;
 }
+
+.main-pfp {
+	display: inline-block;
+	background: $gray-500;
+	border-radius: 100px;
+	outline: 2px solid $gray-400;
+	outline-offset: -1px;
+}
+
+.pfp-admin {
+	background: $red-800!important;
+}
