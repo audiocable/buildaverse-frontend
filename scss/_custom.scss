@@ -490,3 +490,51 @@ a {
 .pfp-admin {
 	background: $red-800!important;
 }
+
+.authenication {
+	background: url("/dist/img/background/stars-alt.png") fixed no-repeat;
+	backdrop-filter: blur(2px);
+	background-size: cover;
+}
+.authenication .sticker {
+	transform: rotate(-10deg);
+	top: -120px;
+	left: -136px;
+}
+
+.input-parent {
+    position: relative;
+}
+.input-parent.has-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 18px;
+    padding: 0 12px;
+    height: 100%;
+    position: absolute;
+}
+.input-parent.has-icon .form-control {
+    padding-left: 38px;
+}
+
+.divider {
+    margin: 8px 0;
+    text-transform: uppercase;
+    color: $gray-300;
+    font-size: 14px;
+    text-align: center;
+    user-select: none;
+    font-weight: 700;
+    display: flex;
+}
+.divider::before, .divider::after {
+    content: "";
+    display: inline-block;
+    flex-grow: 1;
+    background-color: $gray-300;
+    height: 1px;
+    align-self: center;
+    margin: 0px 7px;
+}
