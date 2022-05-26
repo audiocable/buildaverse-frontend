@@ -1,13 +1,87 @@
+/*
+* Text Utilities
+*/
+.text-decoration-none {
+	text-decoration: none!important;
+}
+
+.text-xs {
+	font-size: 0.75rem; /* 12px */
+	line-height: 1rem; /* 16px */
+}
+
+.text-sm {
+	font-size: 0.875rem; /* 14px */
+	line-height: 1.25rem; /* 20px */
+}
+
+.text-md {
+	font-size: 1rem; /* 16px */
+	line-height: 1.5rem; /* 24px */
+}
+
+.text-lg {
+	font-size: 1.125rem; /* 18px */
+	line-height: 1.75rem; /* 28px */
+}
+
+.text-xl {
+	font-size: 1.25rem; /* 20px */
+	line-height: 1.75rem; /* 28px */
+}
+
+.text-2xl {
+	font-size: 1.5rem; /* 24px */
+	line-height: 2rem; /* 32px */
+}
+
+.text-3xl {
+	font-size: 1.875rem; /* 30px */
+	line-height: 2.25rem; /* 36px */
+}
+
+.text-4xl {
+	font-size: 2.25rem; /* 36px */
+	line-height: 2.5rem; /* 40px */
+}
+
+.text-5xl {
+	font-size: 3rem; /* 48px */
+	line-height: 1;
+}
+
+.text-6xl {
+	font-size: 3.75rem; /* 60px */
+	line-height: 1;
+}
+
+.text-7xl {
+	font-size: 4.5rem; /* 72px */
+	line-height: 1;
+}
+
+.text-8xl {
+	font-size: 6rem; /* 96px */
+	line-height: 1;
+}
+
+.text-9xl {
+	font-size: 8rem; /* 128px */
+	line-height: 1;
+}
+
+.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 mark {
 	color: $body-color;
 }
 
 .card {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
-}
-
-.text-decoration-none {
-	text-decoration: none!important;
 }
 
 .nav-pill {
@@ -441,11 +515,6 @@ html {
 	color: $body-color;
 }
 
-.wearing-item-frame {
-	background: $gray-500;
-	border-radius: $border-radius;
-}
-
 .mb-3-5 {
 	margin-bottom: 24px!important;
 }
@@ -489,4 +558,39 @@ a {
 
 .pfp-admin {
 	background: $red-800!important;
+}
+
+.slot {
+    height: 6.25rem;
+    width: 6.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #262626;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.slot .bv-icon::before {
+    filter: brightness(0) invert(1);
+    opacity: 0.1;
+    height: 50px;
+    width: 50px;
+}
+
+.slot.has-item {
+    opacity: 0.8;
+    background-color: #3f3f3f;
+    padding: 10px;
+}
+
+.slot.has-item:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
