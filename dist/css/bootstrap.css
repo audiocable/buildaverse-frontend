@@ -12311,7 +12311,7 @@ mark, .mark {
 }
 
 .main-section {
-  margin-top: .75rem;
+  margin-top: 0.75rem;
 }
 
 @media (min-width: 768px) {
@@ -12344,12 +12344,12 @@ mark, .mark {
 }
 
 .navbar .navbar-toggler {
-  top: .25rem;
+  top: 0.25rem;
   right: 1rem;
 }
 
 .navbar .form-control {
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   border-width: 0;
   border-radius: 0;
   font-weight: 500;
@@ -12392,7 +12392,7 @@ html {
 }
 
 .bi {
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   pointer-events: none;
   fill: currentColor;
 }
@@ -12412,7 +12412,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.65);
   background-color: transparent;
@@ -12429,12 +12429,12 @@ html {
   width: 1.25em;
   line-height: 0;
   content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
-  -webkit-transition: -webkit-transform .35s ease;
-  transition: -webkit-transform .35s ease;
-  transition: transform .35s ease;
-  transition: transform .35s ease, -webkit-transform .35s ease;
-  -webkit-transform-origin: .5em 50%;
-          transform-origin: .5em 50%;
+  -webkit-transition: -webkit-transform 0.35s ease;
+  transition: -webkit-transform 0.35s ease;
+  transition: transform 0.35s ease;
+  transition: transform 0.35s ease, -webkit-transform 0.35s ease;
+  -webkit-transform-origin: 0.5em 50%;
+          transform-origin: 0.5em 50%;
 }
 
 .btn-toggle[aria-expanded="true"] {
@@ -12450,8 +12450,8 @@ html {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  padding: .1875rem .5rem;
-  margin-top: .125rem;
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
   margin-left: 1.25rem;
   text-decoration: none;
 }
@@ -12667,7 +12667,7 @@ a {
 }
 
 .authenication {
-  background: url("img/background/stars-alt.png") fixed no-repeat;
+  background: url("../img/background/stars-alt.png") fixed no-repeat;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   background-size: cover;
@@ -12721,7 +12721,8 @@ a {
   display: flex;
 }
 
-.divider::before, .divider::after {
+.divider::before,
+.divider::after {
   content: "";
   display: inline-block;
   -webkit-box-flex: 1;
