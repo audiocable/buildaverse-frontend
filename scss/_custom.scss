@@ -451,6 +451,10 @@ html {
   color: #bbbbbb;
 }
 .mobile-nav-link a[type="button"] {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
