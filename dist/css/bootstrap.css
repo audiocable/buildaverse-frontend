@@ -12666,6 +12666,75 @@ a {
           transform: scale(1.1);
 }
 
+.authenication {
+  background: url("/dist/img/background/stars-alt.png") fixed no-repeat;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-size: cover;
+}
+
+.authenication .sticker {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  top: -120px;
+  left: -136px;
+}
+
+.input-parent {
+  position: relative;
+}
+
+.input-parent.has-icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.7;
+  font-size: 18px;
+  padding: 0 12px;
+  height: 100%;
+  position: absolute;
+}
+
+.input-parent.has-icon .form-control {
+  padding-left: 38px;
+}
+
+.divider {
+  margin: 8px 0;
+  text-transform: uppercase;
+  color: #616161;
+  font-size: 14px;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #616161;
+  height: 1px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0px 7px;
+}
+
 /*
 * Buildaverse Icons
 */
