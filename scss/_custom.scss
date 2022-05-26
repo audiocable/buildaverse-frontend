@@ -451,14 +451,14 @@ html {
   color: #bbbbbb;
 }
 .mobile-nav-link a[type="button"] {
-  border: none;
-  background-color: transparent;
-  margin: 0;
-  padding: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  opacity: 1;
+  border: none !important;
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  opacity: 1 !important;
 }
 
 .mobile-nav-link-active {
