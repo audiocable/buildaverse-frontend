@@ -12667,7 +12667,7 @@ a {
 }
 
 .authenication {
-  background: url("/dist/img/background/stars-alt.png") fixed no-repeat;
+  background: url("img/background/stars-alt.png") fixed no-repeat;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   background-size: cover;
