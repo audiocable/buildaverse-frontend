@@ -8,6 +8,7 @@
 
 <body>
 	<!-- NAVIGATION START -->
+	<div id="navbar"></div>
 	<div id="nav-top"></div>
 	<div id="nav-side"></div>
 	<div id="nav-mobile"></div>
@@ -21,16 +22,21 @@
 	<!-- JS imports -->
 	<script src="js/bootstrap.bundle.js"></script>
 	<script src="js/custom.js"></script>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous"></script>
 
-	<!-- Section Loaders -->
+	<!-- Section Loaders-->
 	<script>
-		$(function () {
-			$("#head").load("!head.html");
-			$("#nav-top").load("!nav-top.html");
-			$("#nav-side").load("!nav-side.html");
-			$("#nav-mobile").load("!nav-mobile.html");
-		});
+		window.onload = function () {
+				$.get("!head.html", function (content) {
+					$("#head").html(content);
+				})
+				$.get("!nav.html", function (content) {
+				$("#navbar").html(content);
+			})
+			}
+
+		
 	</script>
 </body>
 
