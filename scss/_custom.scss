@@ -671,6 +671,13 @@ a {
   width: 24px;
 }
 
+@media (max-width: 768px) {
+  .status.sm {
+    height: 30px;
+    width: 30px;
+  }
+}
+
 .section:not(:last-child) {
   border-bottom: 1px solid $gray-400;
   padding-bottom: 16px;
