@@ -563,8 +563,7 @@ a {
   display: inline-block;
   background: $gray-500;
   border-radius: 100px;
-  outline: 2px solid $gray-400;
-  outline-offset: -1px;
+  border: 2px solid $gray-400;
 }
 
 .pfp-admin {
@@ -670,6 +669,13 @@ a {
 .status.sm {
   height: 24px;
   width: 24px;
+}
+
+@media (max-width: 768px) {
+  .status.sm {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 .section:not(:last-child) {
