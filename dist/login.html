@@ -22,7 +22,15 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-5">
-          <img src="img/branding/light_long.svg" class="img-fluid mb-5" />
+          <img
+            src="img/branding/light_long.svg"
+            class="img-fluid mb-5 d-none d-md-block"
+          />
+          <img
+            src="img/branding/dark_icon.svg"
+            class="mb-2 d-block d-md-none ms-auto me-auto"
+            width="120"
+          />
         </div>
       </div>
       <div class="row justify-content-center mt-5">
@@ -34,6 +42,9 @@
           <div class="card position-relative">
             <div class="card-body pb-2">
               <h4 class="text-center mb-3">Sign in to your account</h4>
+              <label class="text-muted fw-bold text-uppercase text-xs">
+                Username:
+              </label>
               <div class="input-parent has-icon">
                 <i class="bi bi-person-circle"></i>
                 <input
@@ -42,7 +53,10 @@
                   placeholder="Username"
                 />
               </div>
-              <div class="mb-1"></div>
+              <div class="mb-2"></div>
+              <label class="text-muted fw-bold text-uppercase text-xs">
+                Password:
+              </label>
               <div class="input-parent has-icon">
                 <i class="bi bi-unlock-fill"></i>
                 <input
