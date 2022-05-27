@@ -563,8 +563,7 @@ a {
   display: inline-block;
   background: $gray-500;
   border-radius: 100px;
-  outline: 2px solid $gray-400;
-  outline-offset: -1px;
+  border: 2px solid $gray-400;
 }
 
 .pfp-admin {
