@@ -972,15 +972,19 @@ button.toast-close-button {
 .toast {
   background-color: #303030;
 }
+
 .toast-success {
   background-color: $green-600;
 }
+
 .toast-error {
   background-color: $red-600;
 }
+
 .toast-info {
   background-color: $cyan-600;
 }
+
 .toast-warning {
   background-color: $yellow-600;
 }
@@ -1005,4 +1009,8 @@ button.toast-close-button {
 
 #toast-container > .friend-request {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZ5JREFUSEu1lD1LHFEUhp/3D1hIiAiBJEQbBSEYEIuAQogIapkuTQQRW5GojUkZSWuRkOAP2E47EdxCcJuFEJIiqCAB02yXP/DKlZ1h9mNmZ3bYC5c73Dnvee45554rBjw0YP+kAmy/Ah4Dj4BL4I+ketEDdQXY3gM+dHG2JelzEUgHwPYXYC3DyUtJ53khLQDbo8C/HuKapNl+AUvAcQ7xQ0mNHHatRba9ARzkED6X9CNpZ/s1sAM0JL2J/rWnaAL43QNwJWm83SZ5MSTFfrsV+QhYzoC8k3TYNyAIbf8CJrtATiQtRPuJtERbc82PanNtZDVa6IUgCLMCnEr62pb3tH6JzUo9FbZHgPUENGrOuEljgO1p4C3wFBgCroGfzTkFhPkMuAX+StpNi6ajyLZXgO/AgxxXNDK5kRQOcz9Sb5HtJ8AZENaioy7pRRMQp0vSx7gPbIfHa7Oo54T9J0nbaXrZrgEzJQCVZOe2+wkAl3AepFVJ81kRDBzwDVgtEcW+pPdZEYwBi8BwH5BQvwtJ/1MBfTgtJCn1VOQh3QGOzI04KvHfKAAAAABJRU5ErkJggg==") !important;
+}
+
+#toast-container > .forum-reply {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALtJREFUSEvt1r0NwjAQBeD3RknNEjBEGIQFgHkYgvTU9EjMQP2QEUYW/o3jdE4VRZd8d+c7KYRzSboC2LrPIvcnkmdJTwAHkpfYO/wDVPBxE2IBG7+PIa0AgwaRlkAQaQ14yBrAg+Rgz3IRUDIQtcAE4AbgFULMCC+tIJk8yV/itRU0A+4Aolv6VUYAG1ecU8FnY1PpSjqaza4FSgbFi5lTQW8RcmPaW5Rt0epj2gHvDEp/W1Ktm0jubMAbg5yeGXFGsFMAAAAASUVORK5CYII=") !important;
 }
