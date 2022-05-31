@@ -1,14 +1,23 @@
 /*
 Scrollbars
 */
+body {
+  overflow-y: overlay;
+}
+body::-webkit-scrollbar-track {
+  margin-top: 66px;
+}
+@media (max-width: 768px) {
+  body::-webkit-scrollbar-track {
+    margin-top: 0;
+  }
+}
 *::-webkit-scrollbar {
   width: 16px;
 }
-
 *::-webkit-scrollbar-track {
   background-color: transparent;
 }
-
 *::-webkit-scrollbar-thumb {
   border-radius: 100px;
   border: 4px solid transparent;
@@ -287,7 +296,7 @@ mark {
 }
 
 .main-section {
-  margin-top: 0.75rem;
+  padding-top: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -717,8 +726,81 @@ a {
   padding-top: 16px;
 }
 
+.nav-pills.nav-rounded {
+  display: block;
+}
+.nav-pills.nav-rounded .nav-item {
+  display: inline-block;
+}
+.nav-pills.nav-rounded .nav-link {
+  float: none;
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 6px;
+  background-color: $gray-600;
+  color: $gray-100;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
+  padding: 8px 28px;
+  border-radius: 100px;
+}
+.nav-pills.nav-rounded .nav-link.active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #ffffff;
+  background-color: $gray-100;
+  color: $gray-700;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-y: visible;
+  }
+  .nav-pills.nav-rounded {
+    overflow-x: auto;
+    padding: 6px 0;
+    white-space: nowrap;
+  }
+  .mobile-header {
+    position: fixed;
+    z-index: 123344;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .nav-pills.nav-rounded::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.btn.btn-rounded {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px $purple-400;
+  padding: 8px 28px;
+  border-radius: 100px;
+}
+.btn.btn-floating {
+  position: fixed;
+  bottom: 66px;
+  right: 6px;
+  z-index: 123344;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 61px;
+  font-size: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px $purple-400;
+  line-height: 0;
+  border-radius: 100px;
+}
+
 .min-w-0 {
   min-width: 0 !important;
+}
+.mw-50 {
+  max-width: 150px;
+}
+
+.headshot {
+  border: 2px solid $gray-400;
 }
 
 /* Custom Toastr JS 

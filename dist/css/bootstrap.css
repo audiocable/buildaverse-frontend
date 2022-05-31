@@ -12057,6 +12057,20 @@ i.bv-icon.pants::before {
 /*
 Scrollbars
 */
+body {
+  overflow-y: overlay;
+}
+
+body::-webkit-scrollbar-track {
+  margin-top: 66px;
+}
+
+@media (max-width: 768px) {
+  body::-webkit-scrollbar-track {
+    margin-top: 0;
+  }
+}
+
 *::-webkit-scrollbar {
   width: 16px;
 }
@@ -12363,7 +12377,7 @@ mark, .mark {
 }
 
 .main-section {
-  margin-top: 0.75rem;
+  padding-top: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -12845,8 +12859,96 @@ a {
   padding-top: 16px;
 }
 
+.nav-pills.nav-rounded {
+  display: block;
+}
+
+.nav-pills.nav-rounded .nav-item {
+  display: inline-block;
+}
+
+.nav-pills.nav-rounded .nav-link {
+  float: none;
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 6px;
+  background-color: #1C1C1C;
+  color: #DEDEDE;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
+  padding: 8px 28px;
+  border-radius: 100px;
+}
+
+.nav-pills.nav-rounded .nav-link.active {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #ffffff;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #ffffff;
+  background-color: #DEDEDE;
+  color: #171717;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-y: visible;
+  }
+  .nav-pills.nav-rounded {
+    overflow-x: auto;
+    padding: 6px 0;
+    white-space: nowrap;
+  }
+  .mobile-header {
+    position: fixed;
+    z-index: 123344;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .nav-pills.nav-rounded::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.btn.btn-rounded {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #877bf4;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #877bf4;
+  padding: 8px 28px;
+  border-radius: 100px;
+}
+
+.btn.btn-floating {
+  position: fixed;
+  bottom: 66px;
+  right: 6px;
+  z-index: 123344;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 61px;
+  font-size: 38px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #877bf4;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #877bf4;
+  line-height: 0;
+  border-radius: 100px;
+}
+
 .min-w-0 {
   min-width: 0 !important;
+}
+
+.mw-50 {
+  max-width: 150px;
+}
+
+.headshot {
+  border: 2px solid #3C3C3C;
 }
 
 /* Custom Toastr JS 
@@ -13124,4 +13226,8 @@ button.toast-close-button {
 
 #toast-container > .forum-reply {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALtJREFUSEvt1r0NwjAQBeD3RknNEjBEGIQFgHkYgvTU9EjMQP2QEUYW/o3jdE4VRZd8d+c7KYRzSboC2LrPIvcnkmdJTwAHkpfYO/wDVPBxE2IBG7+PIa0AgwaRlkAQaQ14yBrAg+Rgz3IRUDIQtcAE4AbgFULMCC+tIJk8yV/itRU0A+4Aolv6VUYAG1ecU8FnY1PpSjqaza4FSgbFi5lTQW8RcmPaW5Rt0epj2gHvDEp/W1Ktm0jubMAbg5yeGXFGsFMAAAAASUVORK5CYII=") !important;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
