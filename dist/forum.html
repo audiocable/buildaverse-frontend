@@ -19,7 +19,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <div class="dropdown">
             <button
-              class="text-xl bg-transparent border-0 text-white"
+              class="text-xl bg-transparent border-0 p-0 text-white"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
@@ -103,18 +103,23 @@
         </div>
       </div>
       <h2>Threads</h2>
-      <div class="card p-3 border-start border-danger mb-3">
+      <div class="card p-2 ps-3 p-md-3 border-start border-danger mb-3">
         <div class="row align-items-center">
-          <div class="col-md-3 mb-3 mb-md-0">
+          <div class="col-3 col-md-3">
             <div class="d-flex align-items-center">
               <a href="#">
                 <img
                   src="img/avatar/headshot.png"
-                  class="headshot rounded-circle"
+                  class="headshot rounded-circle d-none d-md-block"
                   width="80"
                 />
+                <img
+                  src="img/avatar/headshot.png"
+                  class="headshot rounded-circle d-block d-md-none"
+                  width="60"
+                />
               </a>
-              <div class="ms-3 min-w-0">
+              <div class="ms-3 min-w-0 d-none d-md-block">
                 <a
                   href="#"
                   class="d-block truncate text-danger text-xl fw-semibold"
@@ -122,25 +127,54 @@
                   c0ncrete
                 </a>
                 <div class="text-sm text-muted truncate">1,000 Posts</div>
-                <div class="text-sm text-muted truncate mt-1">
-                  <span class="badge bg-danger text-xs fw-semibold me-1"
+                <div class="text-sm text-muted mt-1">
+                  <span class="badge bg-danger text-xs fw-semibold me-1 mb-1"
                     >Pinned</span
+                  >
+                  <span class="badge bg-secondary text-xs fw-semibold me-1 mb-1"
+                    >Locked</span
                   >
                   2y ago
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-8 col-md-9 p-0">
+            <div class="text-muted text-xs mb-1 d-block d-md-none">
+              Posted by
+              <a href="#" class="text-danger fw-semibold">Jordan</a
+              ><span class="mx-1 text-muted">&bullet;</span>2h ago
+            </div>
             <a href="#" class="text-muted">
-              <div class="truncate text-xl fw-semibold text-light">
-                This is a post!
+              <div
+                class="truncate text-xl fw-semibold text-light d-none d-md-block"
+              >
+                sid lied i got no chocolate
               </div>
-              <div class="truncate text-muted fw-normal">
+              <div
+                class="truncate text-lg fw-semibold text-light d-block d-md-none"
+              >
+                <i class="bi bi-pin align-middle text-danger"></i> sid lied i
+                got no chocolate
+              </div>
+              <div class="mt-1 truncate d-block d-md-none">
+                <span class="text-primary fw-normal">
+                  <i class="bi bi-chat-left-text me-1"></i
+                  ><span class="text-sm">5k+</span>
+                </span>
+                <span class="mx-1 text-muted text-xs">&bullet;</span>
+                <span class="text-danger fw-normal">
+                  <i class="bi bi-heart me-1"></i
+                  ><span class="text-sm">2k+</span>
+                </span>
+                <span class="mx-1 text-muted text-xs">&bullet;</span>
+                <span class="text-muted text-xs fw-normal">Active 8h ago</span>
+              </div>
+              <div class="truncate text-muted fw-normal d-none d-md-block">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </div>
-              <div class="mt-1 truncate">
+              <div class="mt-1 truncate d-none d-md-block">
                 <span class="text-primary fw-normal">
                   <i class="bi bi-chat-left-text me-1"></i
                   ><span class="text-sm">1,000</span>
@@ -155,8 +189,11 @@
                   <i class="bi bi-eye me-1"></i
                   ><span class="text-sm">1,000</span>
                 </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-muted text-xs fw-normal"
+                <span class="mx-2 text-muted text-xs d-none d-md-inline"
+                  >&bullet;</span
+                >
+                <span
+                  class="text-muted text-xs fw-normal d-block d-md-inline mt-1 mt-md-0"
                   >Last activity 8h ago</span
                 >
               </div>
@@ -164,39 +201,75 @@
           </div>
         </div>
       </div>
-      <div class="card p-3 border-start border-primary mb-3">
+      <div class="card p-2 ps-3 p-md-3 border-start border-primary mb-3">
         <div class="row align-items-center">
-          <div class="col-md-3 mb-3 mb-md-0">
+          <div class="col-3 col-md-3">
             <div class="d-flex align-items-center">
               <a href="#">
                 <img
                   src="img/avatar/headshot.png"
-                  class="headshot rounded-circle"
+                  class="headshot rounded-circle d-none d-md-block"
                   width="80"
                 />
+                <img
+                  src="img/avatar/headshot.png"
+                  class="headshot rounded-circle d-block d-md-none"
+                  width="60"
+                />
               </a>
-              <div class="ms-3 min-w-0">
+              <div class="ms-3 min-w-0 d-none d-md-block">
                 <a
                   href="#"
-                  class="d-block truncate text-light text-xl fw-semibold"
+                  class="d-block truncate text-danger text-xl fw-semibold"
                 >
                   c0ncrete
                 </a>
                 <div class="text-sm text-muted truncate">1,000 Posts</div>
-                <div class="text-sm text-muted truncate mt-1">2y ago</div>
+                <div class="text-sm text-muted mt-1">
+                  <span class="badge bg-secondary text-xs fw-semibold me-1 mb-1"
+                    >Locked</span
+                  >
+                  2y ago
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-8 col-md-9 p-0">
+            <div class="text-muted text-xs mb-1 d-block d-md-none">
+              Posted by
+              <a href="#" class="fw-semibold">Jordan</a
+              ><span class="mx-1 text-muted">&bullet;</span>2h ago
+            </div>
             <a href="#" class="text-muted">
-              <div class="truncate text-xl fw-semibold text-light">
-                This is a post!
+              <div
+                class="truncate text-xl fw-semibold text-light d-none d-md-block"
+              >
+                sid lied i got no chocolate
               </div>
-              <div class="truncate text-muted fw-normal">
+              <div
+                class="truncate text-lg fw-semibold text-light d-block d-md-none"
+              >
+                <i class="bi bi-lock align-middle text-muted"></i> sid lied i
+                got no chocolate
+              </div>
+              <div class="mt-1 truncate d-block d-md-none">
+                <span class="text-primary fw-normal">
+                  <i class="bi bi-chat-left-text me-1"></i
+                  ><span class="text-sm">5k+</span>
+                </span>
+                <span class="mx-1 text-muted text-xs">&bullet;</span>
+                <span class="text-danger fw-normal">
+                  <i class="bi bi-heart me-1"></i
+                  ><span class="text-sm">2k+</span>
+                </span>
+                <span class="mx-1 text-muted text-xs">&bullet;</span>
+                <span class="text-muted text-xs fw-normal">Active 8h ago</span>
+              </div>
+              <div class="truncate text-muted fw-normal d-none d-md-block">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </div>
-              <div class="mt-1 truncate">
+              <div class="mt-1 truncate d-none d-md-block">
                 <span class="text-primary fw-normal">
                   <i class="bi bi-chat-left-text me-1"></i
                   ><span class="text-sm">1,000</span>
@@ -211,8 +284,11 @@
                   <i class="bi bi-eye me-1"></i
                   ><span class="text-sm">1,000</span>
                 </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-muted text-xs fw-normal"
+                <span class="mx-2 text-muted text-xs d-none d-md-inline"
+                  >&bullet;</span
+                >
+                <span
+                  class="text-muted text-xs fw-normal d-block d-md-inline mt-1 mt-md-0"
                   >Last activity 8h ago</span
                 >
               </div>
@@ -220,39 +296,74 @@
           </div>
         </div>
       </div>
-      <div class="card p-3 border-start border-success mb-3">
+      <div class="card p-2 ps-3 p-md-3 border-start border-success mb-3">
         <div class="row align-items-center">
-          <div class="col-md-3 mb-3 mb-md-0">
+          <div class="col-3 col-md-3">
             <div class="d-flex align-items-center">
               <a href="#">
                 <img
                   src="img/avatar/headshot.png"
-                  class="headshot rounded-circle"
+                  class="headshot rounded-circle d-none d-md-block"
                   width="80"
                 />
+                <img
+                  src="img/avatar/headshot.png"
+                  class="headshot rounded-circle d-block d-md-none"
+                  width="60"
+                />
               </a>
-              <div class="ms-3 min-w-0">
+              <div class="ms-3 min-w-0 d-none d-md-block">
                 <a
                   href="#"
-                  class="d-block truncate text-light text-xl fw-semibold"
+                  class="d-block truncate text-danger text-xl fw-semibold"
                 >
                   c0ncrete
                 </a>
                 <div class="text-sm text-muted truncate">1,000 Posts</div>
-                <div class="text-sm text-muted truncate mt-1">2y ago</div>
+                <div class="text-sm text-muted mt-1">
+                  <span class="badge bg-secondary text-xs fw-semibold me-1 mb-1"
+                    >Locked</span
+                  >
+                  2y ago
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-8 col-md-9 p-0">
+            <div class="text-muted text-xs mb-1 d-block d-md-none">
+              Posted by
+              <a href="#" class="fw-semibold">Jordan</a
+              ><span class="mx-1 text-muted">&bullet;</span>2h ago
+            </div>
             <a href="#" class="text-muted">
-              <div class="truncate text-xl fw-semibold text-light">
-                This is a post!
+              <div
+                class="truncate text-xl fw-semibold text-light d-none d-md-block"
+              >
+                sid lied i got no chocolate
               </div>
-              <div class="truncate text-muted fw-normal">
+              <div
+                class="truncate text-lg fw-semibold text-light d-block d-md-none"
+              >
+                sid lied i got no chocolate
+              </div>
+              <div class="mt-1 truncate d-block d-md-none">
+                <span class="text-primary fw-normal">
+                  <i class="bi bi-chat-left-text me-1"></i
+                  ><span class="text-sm">5k+</span>
+                </span>
+                <span class="mx-1 text-muted text-xs">&bullet;</span>
+                <span class="text-danger fw-normal">
+                  <i class="bi bi-heart me-1"></i
+                  ><span class="text-sm">2k+</span>
+                </span>
+                <span class="mx-1 text-muted text-xs">&bullet;</span>
+                <span class="text-muted text-xs fw-normal">Active 8h ago</span>
+              </div>
+              <div class="truncate text-muted fw-normal d-none d-md-block">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </div>
-              <div class="mt-1 truncate">
+              <div class="mt-1 truncate d-none d-md-block">
                 <span class="text-primary fw-normal">
                   <i class="bi bi-chat-left-text me-1"></i
                   ><span class="text-sm">1,000</span>
@@ -267,120 +378,11 @@
                   <i class="bi bi-eye me-1"></i
                   ><span class="text-sm">1,000</span>
                 </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-muted text-xs fw-normal"
-                  >Last activity 8h ago</span
+                <span class="mx-2 text-muted text-xs d-none d-md-inline"
+                  >&bullet;</span
                 >
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="card p-3 border-start border-info mb-3">
-        <div class="row align-items-center">
-          <div class="col-md-3 mb-3 mb-md-0">
-            <div class="d-flex align-items-center">
-              <a href="#">
-                <img
-                  src="img/avatar/headshot.png"
-                  class="headshot rounded-circle"
-                  width="80"
-                />
-              </a>
-              <div class="ms-3 min-w-0">
-                <a
-                  href="#"
-                  class="d-block truncate text-light text-xl fw-semibold"
-                >
-                  c0ncrete
-                </a>
-                <div class="text-sm text-muted truncate">1,000 Posts</div>
-                <div class="text-sm text-muted truncate mt-1">2y ago</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9">
-            <a href="#" class="text-muted">
-              <div class="truncate text-xl fw-semibold text-light">
-                This is a post!
-              </div>
-              <div class="truncate text-muted fw-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
-              <div class="mt-1 truncate">
-                <span class="text-primary fw-normal">
-                  <i class="bi bi-chat-left-text me-1"></i
-                  ><span class="text-sm">1,000</span>
-                </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-danger fw-normal">
-                  <i class="bi bi-heart me-1"></i
-                  ><span class="text-sm">1,000</span>
-                </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-info fw-normal">
-                  <i class="bi bi-eye me-1"></i
-                  ><span class="text-sm">1,000</span>
-                </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-muted text-xs fw-normal"
-                  >Last activity 8h ago</span
-                >
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="card p-3 border-start border-warning mb-3">
-        <div class="row align-items-center">
-          <div class="col-md-3 mb-3 mb-md-0">
-            <div class="d-flex align-items-center">
-              <a href="#">
-                <img
-                  src="img/avatar/headshot.png"
-                  class="headshot rounded-circle"
-                  width="80"
-                />
-              </a>
-              <div class="ms-3 min-w-0">
-                <a
-                  href="#"
-                  class="d-block truncate text-light text-xl fw-semibold"
-                >
-                  c0ncrete
-                </a>
-                <div class="text-sm text-muted truncate">1,000 Posts</div>
-                <div class="text-sm text-muted truncate mt-1">2y ago</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9">
-            <a href="#" class="text-muted">
-              <div class="truncate text-xl fw-semibold text-light">
-                This is a post!
-              </div>
-              <div class="truncate text-muted fw-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
-              <div class="mt-1 truncate">
-                <span class="text-primary fw-normal">
-                  <i class="bi bi-chat-left-text me-1"></i
-                  ><span class="text-sm">1,000</span>
-                </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-danger fw-normal">
-                  <i class="bi bi-heart me-1"></i
-                  ><span class="text-sm">1,000</span>
-                </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-info fw-normal">
-                  <i class="bi bi-eye me-1"></i
-                  ><span class="text-sm">1,000</span>
-                </span>
-                <span class="mx-2 text-muted text-xs">&bullet;</span>
-                <span class="text-muted text-xs fw-normal"
+                <span
+                  class="text-muted text-xs fw-normal d-block d-md-inline mt-1 mt-md-0"
                   >Last activity 8h ago</span
                 >
               </div>
