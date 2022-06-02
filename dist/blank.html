@@ -28,15 +28,19 @@
 	<!-- Section Loaders-->
 	<script>
 		window.onload = function () {
-				$.get("!head.html", function (content) {
-					$("#head").html(content);
-				})
-				$.get("!nav.html", function (content) {
+			$.get("!head.html", function (content) {
+				$("#head").html(content);
+			});
+			$.get("!nav.html", function (content) {
 				$("#navbar").html(content);
-			})
-			}
-
-		
+			});
+			$.get("!nav-side.html", function (content) {
+				$("#nav-side").html(content);
+			});
+			$.get("!nav-mobile.html", function (content) {
+				$("#nav-mobile").html(content);
+			});
+		};
 	</script>
 </body>
 
