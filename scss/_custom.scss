@@ -468,7 +468,7 @@ html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 4;
+  z-index: 49312021;
 }
 
 .mobile-nav-container {
@@ -521,7 +521,7 @@ html {
 
 .text-xs {
   font-size: 0.625rem;
-	line-height: 0.625rem;
+  line-height: 0.625rem;
 }
 
 .text-bold {
@@ -808,32 +808,31 @@ a {
   border: 2px solid $gray-400;
 }
 
-@media (min-width: 576px) {
-	
+.shrink {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
-@media (min-width: 768px) {
-	
-}
+
 @media (min-width: 992px) {
-	.profile-username-break {
-		inline-size: 180px;
-		overflow-wrap: break-word;
-	}
+  .profile-username-break {
+    inline-size: 180px;
+    overflow-wrap: break-word;
+  }
 }
 @media (min-width: 1200px) {
-	.profile-username-break {
-		inline-size: 300px;
-		overflow-wrap: break-word;
-	}
+  .profile-username-break {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+  }
 }
 @media (min-width: 1400px) {
-	.profile-username-break {
-		inline-size: 400px;
-		overflow-wrap: break-word;
-	}
+  .profile-username-break {
+    inline-size: 400px;
+    overflow-wrap: break-word;
+  }
 }
-
-
 
 /* Custom Toastr JS 
  *

@@ -4609,7 +4609,7 @@ fieldset:disabled .btn {
 .card-header {
   padding: 0.9375rem 1.875rem;
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.025);
+  background-color: rgba(255, 255, 255, 0.028);
   border-bottom: 0 solid rgba(0, 0, 0, 0.125);
 }
 
@@ -11241,7 +11241,7 @@ html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 4;
+  z-index: 49312021;
 }
 
 .mobile-nav-container {
@@ -11585,6 +11585,10 @@ a {
   border: 2px solid #3C3C3C;
 }
 
+.shrink {
+  flex: 0 0 auto;
+}
+
 @media (min-width: 992px) {
   .profile-username-break {
     inline-size: 180px;
@@ -11879,3 +11883,4 @@ button.toast-close-button {
 #toast-container > .forum-reply {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALtJREFUSEvt1r0NwjAQBeD3RknNEjBEGIQFgHkYgvTU9EjMQP2QEUYW/o3jdE4VRZd8d+c7KYRzSboC2LrPIvcnkmdJTwAHkpfYO/wDVPBxE2IBG7+PIa0AgwaRlkAQaQ14yBrAg+Rgz3IRUDIQtcAE4AbgFULMCC+tIJk8yV/itRU0A+4Aolv6VUYAG1ecU8FnY1PpSjqaza4FSgbFi5lTQW8RcmPaW5Rt0epj2gHvDEp/W1Ktm0jubMAbg5yeGXFGsFMAAAAASUVORK5CYII=") !important;
 }
+/*# sourceMappingURL=bootstrap.css.map */
