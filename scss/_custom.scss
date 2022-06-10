@@ -738,6 +738,7 @@ a {
   display: inline-block;
 }
 .nav-pills.nav-rounded .nav-link {
+  margin-bottom: 10px;
   float: none;
   display: inline-block;
   font-weight: 600;
@@ -797,6 +798,40 @@ a {
   border-radius: 100px;
 }
 
+.card.card-announcement {
+  background-color: $gray-500;
+  box-shadow: none;
+}
+.card.card-announcement::before {
+  color: $gray-500;
+  position: absolute;
+  top: 14px;
+  left: -20px;
+  font-family: "bootstrap-icons";
+  font-size: 36px;
+  content: "\F22D";
+}
+@media (max-width: 768px) {
+  .card.card-announcement::before {
+    content: "\F235";
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -6px;
+  }
+}
+
+select.form-control {
+  position: relative;
+  cursor: pointer;
+}
+select::after {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-size: 36px;
+  content: "F22D";
+}
+
 .min-w-0 {
   min-width: 0 !important;
 }
@@ -806,6 +841,22 @@ a {
 
 .item-preview {
   background-color: $gray-800;
+}
+.item-preview.is-collectible {
+  border-top-right-radius: 10px;
+  border: 4px solid $purple-600;
+}
+.item-preview.is-timed {
+  border-top-right-radius: 10px;
+  border: 4px solid $red-600;
+}
+@media (max-width: 768px) {
+  .item-preview.is-collectible,
+  .item-preview.is-timed {
+    border-width: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
 }
 
 .headshot {
@@ -832,18 +883,46 @@ a {
   font-size: 26px;
   content: "\F586";
 }
+.timed-badge {
+  background-color: $red-600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: -70px;
+  top: -40px;
+  padding-top: 56px;
+  padding-left: 10px;
+  width: 140px;
+  height: 100px;
+}
+.timed-badge::before {
+  transform: rotate(45deg);
+  font-family: "bootstrap-icons";
+  font-size: 26px;
+  content: "\F41F";
+}
 @media (max-width: 768px) {
-  .collectible-badge {
+  .collectible-badge,
+  .timed-badge {
     justify-content: flex-start;
     padding-top: 66px;
     padding-left: 52px;
     top: -60px !important;
   }
-  .collectible-badge::before {
+  .collectible-badge::before,
+  .timed-badge::before {
     font-size: 20px;
   }
 }
 
+.auto {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+}
 .shrink {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
