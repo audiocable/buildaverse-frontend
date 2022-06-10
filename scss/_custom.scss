@@ -945,10 +945,10 @@ select::after {
   align-items: center;
 }
 
-.line-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+.form-check,
+.form-check-input,
+.form-check-label {
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
