@@ -691,6 +691,19 @@ a {
   margin: 0px 7px;
 }
 
+@media (max-width: 768px) {
+	.trade-divider {
+		border-bottom: 2px solid #3C3C3C;
+		margin-bottom: 0.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.trade-divider {
+		border-right: 2px solid #3C3C3C;
+	}
+}
+
 .status {
   position: absolute;
   right: 5px;
