@@ -11508,7 +11508,7 @@ a {
 }
 
 .section:not(:last-child) {
-  border-bottom: 1px solid #3C3C3C;
+  border-bottom: 2px solid #272727;
   padding-bottom: 16px;
 }
 
@@ -11533,7 +11533,7 @@ a {
   background-color: #1C1C1C;
   color: #DEDEDE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
-  padding: 8px 28px;
+  padding: 8px 23px;
   border-radius: 100px;
 }
 
@@ -11723,6 +11723,39 @@ select::after {
 
 .shrink {
   flex: 0 0 auto;
+}
+
+.head-part,
+.limb-part,
+.torso-part,
+.color-part {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: transparent;
+  padding: 0;
+  border: 2px solid transparent;
+}
+
+.color-part {
+  height: 46px;
+  width: 46px;
+}
+
+.head-part {
+  border-radius: 2px;
+  height: 50px;
+  width: 50px;
+}
+
+.torso-part {
+  border-radius: 2px;
+  height: 100px;
+  width: 100px;
+}
+
+.limb-part {
+  border-radius: 2px;
+  height: 100px;
+  width: 48px;
 }
 
 .community-icon {
