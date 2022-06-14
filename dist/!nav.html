@@ -3,9 +3,46 @@
 	<a class="navbar-brand col-auto me-0 px-3" href="index.html"><img class="navbar-brand-logo d-none d-md-block"
 			src="img/branding/light_long.svg"></a>
 	<div class="col-auto d-md-none"></div>
-	<input class="form-control form-control-dark w-100 d-none d-md-block" type="text"
-		placeholder="Search anything on Buildaverse..." aria-label="Search">
-
+	<div class="dropdown w-75 d-none d-md-block">
+		<input class="form-control form-control-dark w-75 d-none d-md-block" type="text"
+		placeholder="Search anything on Buildaverse..." aria-label="Search" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+		<ul class="dropdown-menu w-75" aria-labelledby="dropdownMenuButton1">
+			<div class="text-xs fw-bold text-muted px-3 my-1">USERS</div>
+			<li>
+				<a href="#" class="dropdown-item">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center gap-2">
+							<img src="img/avatar/headshot.png" class="rounded-circle headshot" width="45">
+							<div>c0ncrete</div>
+						</div>
+						<div>
+							<i class="bi bi-chevron-right"></i>
+						</div>
+					</div>
+				</a>
+			</li>
+			<div class="text-xs fw-bold text-muted px-3 my-1">ITEMS</div>
+			<li>
+				<a href="#" class="dropdown-item">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center gap-2">
+							<img src="img/market/place-2.png" class="rounded-circle headshot" width="45">
+							<div>Crystaline Faberge Egg</div>
+						</div>
+						<div>
+							<i class="bi bi-chevron-right"></i>
+						</div>
+					</div>
+				</a>
+			</li>
+			<!--
+				<div class="px-4 py-2">
+				<div class="text-xl fw-semibold">Search for anything on Buildaverse!</div>
+				<div class="text-sm text-muted">Start typing to get started...</div>
+			</div>
+			-->
+		</ul>
+	</div>
 	<!-- Top Nav Menus-->
 	<div class="col-auto">
 		<!-- Notification Nav Section-->
