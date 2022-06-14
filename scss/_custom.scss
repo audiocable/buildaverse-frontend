@@ -32,11 +32,6 @@ body::-webkit-scrollbar-track {
   text-decoration: none !important;
 }
 
-.text-xs {
-  font-size: 0.75rem; /* 12px */
-  line-height: 1rem; /* 16px */
-}
-
 .text-sm {
   font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
@@ -302,7 +297,7 @@ mark {
 @media (min-width: 768px) {
   .main-section {
     padding-left: 98px;
-    margin-top: 4rem;
+    margin-top: 6rem!important;
   }
 }
 
