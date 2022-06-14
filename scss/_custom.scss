@@ -988,6 +988,14 @@ select::after {
   cursor: pointer;
 }
 
+.community-logo-manage {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 992px) {
   .profile-username-break {
     inline-size: 180px;
