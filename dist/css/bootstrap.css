@@ -11332,6 +11332,10 @@ html {
   background: #272727;
 }
 
+.bg-primary-800 {
+  background: #2a2460;
+}
+
 .mr-2 {
   margin-right: 20px !important;
 }
