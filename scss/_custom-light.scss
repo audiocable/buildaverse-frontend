@@ -103,12 +103,12 @@ mark {
 }
 
 .card {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px -2px 0px $gray-200;
 }
 
 .nav-pill {
   border-radius: 100px;
-  outline: 2px solid $gray-500;
+  outline: 2px solid $border-color;
   outline-offset: -1px;
   margin-right: 0.75rem;
 }
@@ -117,7 +117,7 @@ mark {
   padding: 0.5rem 0.375rem;
   text-decoration: none;
   display: inline-block;
-  color: $gray-200;
+  color: $gray-700;
 }
 
 .nav-pill-section-icon {
@@ -138,17 +138,17 @@ mark {
 }
 
 .nav-pill-section:hover {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: $gray-800 !important;
 }
 
 .nav-user {
   padding: 0 0 0 1rem !important;
-  background: $gray-700;
+  background: $white;
   border-radius: 100px;
 }
 
 .nav-user:hover {
-  background: $gray-600;
+  background: $gray-100;
 }
 
 .nav-user-username {
@@ -163,34 +163,34 @@ mark {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background: $purple-800;
+  background: $purple-200;
   border-radius: 100px;
-  outline: 2px solid $gray-500;
+  outline: 2px solid $border-color;
   outline-offset: -1px;
   position: relative;
   left: 1px;
 }
 
 .nav-pfp-admin {
-  background: $red-800;
+  background: $red-200;
 }
 
 .list-pfp {
   display: inline-block;
   height: 45px;
   width: 45px;
-  background: $gray-500;
+  background: $gray-400;
   border-radius: 100px;
-  border: 2px solid $gray-400;
+  border: 2px solid $border-color;
 }
 
 .notif-pfp {
   display: inline-block;
   height: 35px;
   width: 35px;
-  background: $gray-500;
+  background: $gray-200;
   border-radius: 100px;
-  border: 2px solid $gray-400;
+  border: 2px solid $border-color;
   margin-left: 0.75rem;
   margin-right: 0.5rem;
 }
@@ -205,18 +205,18 @@ mark {
 }
 
 .notif-icon-primary {
-  background: $purple-800;
-  border: 2px solid $purple-700;
+  background: $purple-200;
+  border: 2px solid $purple-400;
 }
 
 .notif-icon-success {
-  background: $green-800;
-  border: 2px solid $green-700;
+  background: $green-200;
+  border: 2px solid $green-400;
 }
 
 .notif-icon-warning {
-  background: $yellow-800;
-  border: 2px solid $yellow-700;
+  background: $yellow-200;
+  border: 2px solid $yellow-400;
 }
 
 .notif-text {
@@ -239,7 +239,7 @@ mark {
 }
 
 .notif:hover {
-  background: $gray-500;
+  background: $gray-200;
 }
 
 .notif-truncate {
@@ -262,11 +262,11 @@ mark {
 
 .notification-dropdown-title {
   font-weight: 600;
-  color: white;
+  color: $black;
 }
 
 .second-nav {
-  background: $gray-800 !important;
+  background: $gray-100 !important;
 }
 
 @media (max-width: 768px) {
@@ -279,7 +279,7 @@ mark {
   }
 
   .nav-pill {
-    border: 2px solid $gray-500;
+    border: 2px solid $border-color;
     outline: 0 !important;
   }
 
@@ -316,7 +316,7 @@ mark {
 .navbar-brand {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  background-color: $gray-900;
+  background-color: $white;
   line-height: 100%;
 }
 
@@ -443,19 +443,19 @@ html {
 
 .side-nav-active {
   border-left: 3px solid $primary !important;
-  color: $gray-100 !important;
+  color: $purple !important;
 }
 
 .sidebar-icon {
-  color: $gray-300;
+  color: $gray-900;
 }
 
 .sidebar {
-  background: $gray-800;
+  background: $white;
   height: calc(100vh - 66px);
   overflow-y: overlay;
   position: fixed;
-  border-right: 2px solid $gray-500;
+  border-right: 2px solid $border-color;
   width: 5.5rem;
 }
 
@@ -471,7 +471,7 @@ html {
 }
 
 .mobile-nav-link {
-  color: #bbbbbb;
+  color: $gray-700;
 }
 .mobile-nav-link a[type="button"] {
   border: none !important;
@@ -485,7 +485,7 @@ html {
 }
 
 .mobile-nav-link-active {
-  color: white;
+  color: $black;
 }
 
 .avatar {
@@ -607,7 +607,7 @@ a {
   width: 6.25rem;
   font-weight: 800;
   text-transform: uppercase;
-  background-color: #262626;
+  background-color: $gray-100;
   border-radius: 10px;
   font-size: 14px;
   text-align: center;
@@ -620,15 +620,15 @@ a {
 }
 
 .slot .bv-icon::before {
-  filter: brightness(0) invert(1);
-  opacity: 0.1;
+  filter: brightness(1) invert(0);
+  opacity: 0.25;
   height: 50px;
   width: 50px;
 }
 
 .slot.has-item {
   opacity: 0.8;
-  background-color: #3f3f3f;
+  background-color: $gray-100;
   padding: 10px;
 }
 
@@ -692,14 +692,14 @@ a {
 
 @media (max-width: 768px) {
 	.trade-divider {
-		border-bottom: 2px solid #3C3C3C;
+		border-bottom: 2px solid $border-color;
 		margin-bottom: 0.5rem;
 	}
 }
 
 @media (min-width: 768px) {
 	.trade-divider {
-		border-right: 2px solid #3C3C3C;
+		border-right: 2px solid $border-color;
 	}
 }
 
@@ -708,7 +708,7 @@ a {
   right: 5px;
   bottom: -5px;
   border-radius: 50%;
-  border: 4px solid #1c1c1c;
+  border: 4px solid $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -755,16 +755,16 @@ a {
   display: inline-block;
   font-weight: 600;
   margin-right: 6px;
-  background-color: $gray-600;
-  color: $gray-100;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #272727;
+  background-color: $white;
+  color: $gray-800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
   padding: 8px 23px;
   border-radius: 100px;
 }
 .nav-pills.nav-rounded .nav-link.active {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px #ffffff;
-  background-color: $gray-100;
-  color: $gray-700;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  background-color: $primary;
+  color: $white;
 }
 
 @media (max-width: 768px) {
@@ -790,7 +790,7 @@ a {
 }
 
 .btn.btn-rounded {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 0px $purple-400;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
   padding: 8px 28px;
   border-radius: 100px;
 }
@@ -811,11 +811,11 @@ a {
 }
 
 .card.card-announcement {
-  background-color: $gray-500;
+  background-color: $gray-100;
   box-shadow: none;
 }
 .card.card-announcement::before {
-  color: $gray-500;
+  color: $gray-100;
   position: absolute;
   top: 14px;
   left: -20px;
@@ -852,7 +852,7 @@ select::after {
 }
 
 .item-preview {
-  background-color: $gray-800;
+  background-color: $white;
 }
 .item-preview.is-collectible {
   border-top-right-radius: 10px;
@@ -877,6 +877,7 @@ select::after {
 
 .collectible-badge {
   background-color: $purple-600;
+	color: $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -897,6 +898,7 @@ select::after {
 }
 .timed-badge {
   background-color: $red-600;
+	color: $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -946,10 +948,9 @@ select::after {
 .limb-part,
 .torso-part,
 .color-part {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   background-color: transparent;
   padding: 0;
-  border: 2px solid transparent;
+  border: 2px solid $border-color;
 }
 .color-part {
   height: 46px;
@@ -976,8 +977,8 @@ select::after {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: -30px;
-  background-color: $gray-600;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4), 0px -2px 0px #272727;
+  background-color: $gray-200;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
   height: 90px;
   width: 90px;
   display: flex;
@@ -1325,7 +1326,7 @@ button.toast-close-button {
 }
 
 .bg-navbar {
-	background: $dark;
+	background: $white;
 }
 
 .navbar-theme .navbar-brand {
@@ -1334,20 +1335,20 @@ button.toast-close-button {
 
 .navbar-theme .navbar-brand:hover,
 .navbar-theme .navbar-brand:focus {
-	color: #fff;
+	color: $gray-900;
 }
 
 .navbar-theme .navbar-nav .nav-link {
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(0, 0, 0, 0.55);
 }
 
 .navbar-theme .navbar-nav .nav-link:hover,
 .navbar-theme .navbar-nav .nav-link:focus {
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(0, 0, 0, 0.75);
 }
 
 .navbar-theme .navbar-nav .nav-link.disabled {
-	color: rgba(255, 255, 255, 0.25);
+	color: rgba(0, 0, 0, 0.25);
 }
 
 .navbar-theme .navbar-nav .show>.nav-link,
@@ -1356,8 +1357,8 @@ button.toast-close-button {
 }
 
 .navbar-theme .navbar-toggler {
-	color: rgba(255, 255, 255, 0.55);
-	border-color: rgba(255, 255, 255, 0.1);
+	color: rgba(0, 0, 0, 0.55);
+	border-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar-theme .navbar-toggler-icon {
@@ -1365,18 +1366,41 @@ button.toast-close-button {
 }
 
 .navbar-theme .navbar-text {
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(0, 0, 0, 0.55);
 }
 
 .navbar-theme .navbar-text a,
 .navbar-theme .navbar-text a:hover,
 .navbar-theme .navbar-text a:focus {
-	color: #fff;
+	color: $gray-900;
+}
+
+.text-light {
+	color: $black!important;
+}
+
+.text-white {
+	color: $black!important;
+}
+
+.bg-dark {
+	background: $white!important;
+}
+
+.bg-secondary {
+	background: $gray-100!important;
+}
+
+.bg-gray-500 {
+	background: $gray-100!important;
+}
+
+.border-dark {
+	border-color: $white!important;
 }
 
 .form-control-navbar {
-    color: #F2F2F2;
-    background-color: #121212;
-    border-color: #121212;
+	color: $gray-800;
+	background-color: $white;
+	border-color: $white;
 }
-
