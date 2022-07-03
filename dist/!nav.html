@@ -198,7 +198,7 @@
 
 				<span class="dropdown">
 					<!-- Friend icon -->
-					<a class="nav-pill-section nav-pill-icon-right position-relative icon-dropdown" href="#" role="button"
+					<a class="nav-pill-section position-relative icon-dropdown" href="#" role="button"
 						id="friendDropdown" data-bs-toggle="dropdown" aria-expanded="false">
 						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
 							class="bi-people nav-pill-section-icon" viewBox="0 0 16 16">
@@ -249,7 +249,49 @@
 					</ul>
 				</span>
 
-
+				<span class="dropdown">
+					<!-- Messages icon -->
+					<a class="nav-pill-section nav-pill-icon-right position-relative icon-dropdown" href="#"
+						style="position: relative; right: 1px" role="button" id="messagesDropdown" data-bs-toggle="dropdown"
+						aria-expanded="false">
+						<i class="bi-envelope"></i>
+						<span
+							class="d-none position-absolute top-30 start-75 translate-middle badge border border-dark rounded-circle bg-primary p-1"><span
+								class="visually-hidden">unread messages</span></span>
+					</a>
+					<!-- Messages Dropdown -->
+					<ul class="dropdown-menu notification-dropdown" aria-labelledby="messagesDropdown" data-bs-popper="static">
+						<li class="text-center">
+							<span class="dropdown-item-text notification-dropdown-title">Messages<span
+									class="d-none badge rounded-pill bg-primary notif-badge">2</span></span>
+						</li>
+						<li>
+							<hr class="dropdown-divider mb-0" />
+						</li>
+				
+						<li class="notif">
+							<a href="#" class="text-decoration-none">
+								<div class="d-flex pt-3 border-bottom w-100">
+									<img class="notif-pfp" src="img/avatar/headshot.png" />
+									<div class="pb-3 mb-0 small lh-sm w-100 notif-text">
+										<div class="text-light notif-truncate">
+											Message from&nbsp;<strong>Star</strong>
+										</div>
+										<span class="text-muted">Yesterday •<a href="#">View</a></span>
+									</div>
+								</div>
+							</a>
+						</li>
+				
+						<li class="text-center">
+							<div class="dropdown-item-text notif-info">
+								You're all caught up!<br />
+								<a href="#">All Messages</a>
+							</div>
+						</li>
+					</ul>
+				</span>
+				
 			</div>
 
 		</div>
