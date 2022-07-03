@@ -178,6 +178,22 @@
               </div>
               <h4>Latest Announcement</h4>
               <div class="card card-body mb-3">
+                <form action="#">
+                  <div class="text-xs text-uppercase text-muted fw-bold mb-1">
+                    UPDATE COMMUNITY ANNOUNCEMENT
+                  </div>
+                  <div class="d-flex gap-2 align-items-center">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Update Community Announcement..."
+                    />
+                    <button class="btn btn-success" type="submit">
+                      Update
+                    </button>
+                  </div>
+                </form>
+                <hr />
                 <div class="row">
                   <div class="col-md-3">
                     <a href="#" class="text-center">
@@ -188,9 +204,46 @@
                     </a>
                   </div>
                   <div class="col-md-9">
-                    <div class="card card-announcement card-body mb-1">
-                      hello there we are going to do a summon sid ritual please
-                      make sure you're there by 3pm next wednesday!
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="card card-announcement card-body mb-1">
+                        hello there we are going to do a summon sid ritual
+                        please make sure you're there by 3pm next wednesday!
+                      </div>
+                      <div class="dropdown shrink">
+                        <button
+                          class="text-xl bg-transparent border-0 p-0 text-muted"
+                          type="button"
+                          id="dropdownMenuButton1"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <i class="bi bi-three-dots-vertical text-xl"></i>
+                        </button>
+                        <ul
+                          class="dropdown-menu dropdown-menu-end"
+                          aria-labelledby="dropdownMenuButton1"
+                        >
+                          <li>
+                            <span
+                              class="text-center dropdown-item-text notification-dropdown-title p-0"
+                              >More</span
+                            >
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider mb-1" />
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-danger" href="#"
+                              >Report</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-danger" href="#"
+                              >Delete</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                     <div class="text-sm text-muted">
                       Posted by <a href="#" class="fw-semibold">Sid</a>, 8 hours
