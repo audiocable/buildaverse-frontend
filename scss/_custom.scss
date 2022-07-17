@@ -1380,3 +1380,48 @@ button.toast-close-button {
   background-color: #0f0f0f;
   border-color: #0f0f0f;
 }
+
+
+
+
+
+
+.trade-action {
+	position: relative;
+	bottom: 16px;
+	background: #272727;
+	text-align: center !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+	margin-right: 0.625rem !important;
+	margin-left: 0.625rem !important;
+	border: 2px solid #272727 !important;
+	border-radius: 0.375rem;
+	max-width: 100%;
+	height: auto;
+}
+
+.trade-action a {
+	color: $white!important;
+	font-weight: normal;
+}
+
+.trade-action:hover {
+	cursor: pointer;
+	background: $danger;
+	transition: ease 0.4s;
+}
+
+.trade-action a span {
+	position: relative;
+	content: 'price'
+}
+
+.trade-action:hover a span {
+	display: none;
+}
+
+.trade-action:hover a:after {
+	content: 'Remove';
+}
