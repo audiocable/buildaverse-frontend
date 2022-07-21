@@ -46,7 +46,6 @@
 									<div class="col-6 col-md-6 col-lg-4 col-xxl-3">
 										<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Item name"></a>
 										<p class="trade-action trade-action-remove"><a href="#"><span><i class="bi-cash-stack text-success"></i> 10,000</a></span></p>
-
 									</div>
 									<div class="col-6 col-md-6 col-lg-4 col-xxl-3">
 										<a href="#"><img class="img-thumbnail border" src="img/market/place-2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Item name"></a>
@@ -78,10 +77,12 @@
 						</div>
 						<div class="row mt-3">
 							<div class="col-md-6">
-								<p>Total Value: <b class="text-success">40,000</b></p>
+								<div class="text-xs fw-bold text-muted mb-1">AND</div>
+								<span class="d-block text-success fw-semibold">
+									<i class="bi-cash-stack text-xl lh-1 align-middle me-1 align-middle"></i>10,000
+								</span>
 							</div>
 							<div class="col-md-6">
-								<p>Total Value: <b class="text-success">20,000</b></p>
 							</div>
 						</div>
 						<div class="row mt-3">
@@ -92,52 +93,114 @@
 					</div>
 				</div>
 
-				<h4>Add Currency</h4>
-				<div class="row mb-3">
-					<div class="col-md-6">
-						<div class="input-group mb-2">
-							<span class="input-group-text" id="basic-addon1"><i class="bi-cash-stack text-success"></i></span>
-							<input type="text" class="form-control" placeholder="Add Cash" aria-label="Username" aria-describedby="basic-addon1">
-							<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04">Add</button>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="input-group">
-							<span class="input-group-text" id="basic-addon1"><i class="bi-coin text-warning"></i></span>
-							<input type="text" class="form-control" placeholder="Add Coins" aria-label="Username"
-								aria-describedby="basic-addon1">
-							<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04">Add</button>
 
-						</div>
-					</div>
-				</div>
 
-				<h4>Add Items</h4>
+
+				<h4>Add to Trade</h4>
 				<div class="card mb-4">
 					<div class="card-body">
-						<div class="row">
-							<div class="col-6 col-md-3 col-lg-2">
-								<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip"
-										data-bs-placement="top" title="Item name"></a>
-								<p class="trade-action trade-action-add"><a href="#"><span><i class="bi-cash-stack text-success"></i> 10,000</a></span></p>
+						<div class="row mb-4">
+							<div class="col-md-6 trade-divider">
+								<div class="row">
+									<h5>Your Items</h5>
+									<div class="col-6 col-md-6 col-lg-4 col-xxl-3">
+										<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip"
+												data-bs-placement="top" title="Item name"></a>
+										<p class="trade-action trade-action-add"><a href="#"><span><i class="bi-cash-stack text-success"></i>
+													10,000</a></span></p>
+									</div>
+									<div class="col-6 col-md-6 col-lg-4 col-xxl-3">
+										<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip"
+												data-bs-placement="top" title="Item name"></a>
+										<p class="trade-action trade-action-add"><a href="#"><span><i class="bi-cash-stack text-success"></i>
+													10,000</a></span></p>
+									</div>
+									<div class="col-12 d-flex justify-content-center">
+										<nav aria-label="...">
+											<ul class="pagination pagination-sm">
+												<li class="page-item active" aria-current="page">
+													<span class="page-link">1</span>
+												</li>
+												<li class="page-item"><a class="page-link" href="#">2</a></li>
+												<li class="page-item"><a class="page-link" href="#">3</a></li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+								<h5>Add Currency</h5>
+								<div class="row mb-3">
+									<div class="col-lg-6">
+										<div class="input-group mb-2">
+											<span class="input-group-text" id="basic-addon1"><i class="bi-cash-stack text-success"></i></span>
+											<input type="text" class="form-control" placeholder="Cash" aria-label="Username"
+												aria-describedby="basic-addon1">
+											<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04">Add</button>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="input-group">
+											<span class="input-group-text" id="basic-addon1"><i class="bi-coin text-warning"></i></span>
+											<input type="text" class="form-control" placeholder="Coins" aria-label="Username"
+												aria-describedby="basic-addon1">
+											<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04">Add</button>
+
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="col-6 col-md-3 col-lg-2">
-								<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip"
-										data-bs-placement="top" title="Item name"></a>
-								<p class="trade-action trade-action-add"><a href="#"><span><i class="bi-cash-stack text-success"></i>
-											10,000</a></span></p>
+							<div class="col-md-6">
+								<div class="row">
+									<h5>username's items</h5>
+									<div class="col-6 col-md-6 col-lg-4 col-xxl-3">
+										<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip"
+												data-bs-placement="top" title="Item name"></a>
+										<p class="trade-action trade-action-add"><a href="#"><span><i class="bi-cash-stack text-success"></i>
+													10,000</a></span></p>
+									</div>
+									<div class="col-6 col-md-6 col-lg-4 col-xxl-3">
+										<a href="#"><img class="img-thumbnail border" src="img/market/place-1.png" data-bs-toggle="tooltip"
+												data-bs-placement="top" title="Item name"></a>
+										<p class="trade-action trade-action-add"><a href="#"><span><i class="bi-cash-stack text-success"></i>
+													10,000</a></span></p>
+									</div>
+									<div class="col-12 d-flex justify-content-center">
+										<nav aria-label="...">
+											<ul class="pagination pagination-sm">
+												<li class="page-item active" aria-current="page">
+													<span class="page-link">1</span>
+												</li>
+												<li class="page-item"><a class="page-link" href="#">2</a></li>
+												<li class="page-item"><a class="page-link" href="#">3</a></li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+								<h5>Request Currency</h5>
+								<div class="row mb-3">
+									<div class="col-lg-6">
+										<div class="input-group mb-2">
+											<span class="input-group-text" id="basic-addon1"><i class="bi-cash-stack text-success"></i></span>
+											<input type="text" class="form-control" placeholder="Cash" aria-label="Username"
+												aria-describedby="basic-addon1">
+											<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04">Add</button>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="input-group">
+											<span class="input-group-text" id="basic-addon1"><i class="bi-coin text-warning"></i></span>
+											<input type="text" class="form-control" placeholder="Coins" aria-label="Username"
+												aria-describedby="basic-addon1">
+											<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04">Add</button>
+
+										</div>
+									</div>
+									<p class="mb-0 text-sm text-muted">After <b>25%</b> tax, you will recieve <span class="text-success"><i class="bi-cash-stack"></i> 75</span> and <span class="text-warning"><i class="bi-coin"></i> 150</span>.</p>
+									<p class="mb-0 text-sm text-muted"><a href="#">Upgrade your membership</a> to lower your tax rate to 15%.</p>
+								</div>
 							</div>
-							<div class="col-12 d-flex justify-content-center">
-								<nav aria-label="...">
-									<ul class="pagination pagination-sm">
-										<li class="page-item active" aria-current="page">
-											<span class="page-link">1</span>
-										</li>
-										<li class="page-item"><a class="page-link" href="#">2</a></li>
-										<li class="page-item"><a class="page-link" href="#">3</a></li>
-									</ul>
-								</nav>
-							</div>
+
+
+
 						</div>
 
 					</div>
